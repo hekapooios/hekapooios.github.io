@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="apple-touch-icon.png">
+		<link rel="stylesheet" type="text/css" href="new-common/general.css">
+		<link rel="stylesheet" type="text/css" href="new-common/main-page.css">
+
+		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1"> 
+		<meta charset="UTF-8">
+
+		<script type="text/javascript" src="js/3rd-party/mustache.min.js"></script>
+		<script type="text/javascript" src="js/index.js?v=2"></script>
+
+		<title>Apple ROM collection</title>
+	</head>
+
+	<body onload="main()" class="dark">
+		<div id="main" class="main" hidden>
+			<img src="resources/a4-board.png" class="align">
+			<div class="text">
+				<center>
+					<h1 id="name">Apple ROMs</h1>
+
+					<div class="p">
+						Here's my collection of application and Secure Enclave processor's bootroms provided to everyone free of charge
+					</div>
+				</center>
+
+				<div id="tabs" class="tab-controller">
+					<div id="ap-tab" class="tab" inited=0>
+						AP
+					</div>
+
+					<div id="sep-tab" class="tab" inited=0>
+						SEP
+					</div>
+				</div>
+
+				<div class="tabs-content">
+					<div id="ap-tab-contents" hidden>
+					</div>
+
+					<div id="sep-tab-contents" hidden>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="error" class="main" hidden>
+			<div class="text">
+				<center>
+					<h1>Error occured!</h1>
+					Internal error occured, please contact @hekapoo___
+				</center>
+			</div>
+		</div>
+
+
+		<footer class="dark" hidden>
+			Hekapoo, 2019<br>
+			<a href="https://twitter.com/hekapoo___"><img class="footer" src="new-common/twitter.png"></a>
+			<a href="https://github.com/hekapooios"><img class="footer" src="new-common/github.png"></a>
+		</footer>
+	</body>
+</html>

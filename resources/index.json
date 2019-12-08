@@ -1,0 +1,243 @@
+{"aps" : {
+			"roms" : [
+				{
+					"link" : "resources/APROM/ROM BOOT, S5L8900 Rev.2",
+					"name" : "ROM BOOT",
+					"date" : "26.10.19",
+					"picture" : "resources/S5L8900.jpg",
+					"version" : "Rev.2",
+					"from" : "N45AP",
+					"desc" : "Very first ROM. Not made by Apple, but by Samsung. Vulnerable to Pwnage 1/2"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8720xsi, iBoot-240.4",
+					"name" : "SecureROM for s5l8720xsi (old)",
+					"date" : "26.10.19",
+					"picture" : "resources/S5L8720.jpg",
+					"version" : "iBoot-240.4",
+					"from" : "N72AP",
+					"desc" : "iPod touch 2G old bootrom. Vulnerable to steaks4uce and 24kpwn"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8720xsi, iBoot-240.5.1",
+					"name" : "SecureROM for s5l8720xsi (new)",
+					"date" : "3.11.19",
+					"picture" : "resources/S5L8720.jpg",
+					"version" : "iBoot-240.5.1",
+					"from" : "N72AP",
+					"desc" : "iPod touch 2G new bootrom. Vulnerable to steaks4uce"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8920xsi, iBoot-359.3",
+					"name" : "SecureROM for s5l8920xsi (old)",
+					"date" : "26.10.19",
+					"picture" : "resources/S5L8920.jpg",
+					"version" : "iBoot-359.3",
+					"from" : "N88AP",
+					"desc" : "iPhone 3GS old bootrom. Vulnerable to 24kpwn and limera1n"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8920xsi, iBoot-359.3.2",
+					"name" : "SecureROM for s5l8920xsi (new)",
+					"date" : "26.10.19",
+					"picture" : "resources/S5L8920.jpg",
+					"version" : "iBoot-359.3.2",
+					"from" : "N88AP",
+					"desc" : "iPhone 3GS new bootrom. Vulnerable to limera1n"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8922xsi, iBoot-359.5",
+					"name" : "SecureROM for s5l8922xsi",
+					"date" : "26.10.19",
+					"picture" : "resources/S5L8922.jpg",
+					"version" : "iBoot-359.5",
+					"from" : "N18AP",
+					"desc" : "iPod touch 3G bootrom. Vulnerable to limera1n"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8930xsi, iBoot-574.4",
+					"name" : "SecureROM for s5l8930xsi",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A4_Chip.jpg",
+					"version" : "iBoot-574.4",
+					"from" : "N90AP",
+					"desc" : "Bootrom for iPhone 4, iPod touch 4G, iPad 1G and Apple TV 2G. Vulnerable to limera1n and SHAtter"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8950xsi, iBoot-1145.3",
+					"name" : "SecureROM for s5l8950xsi",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A6_Chip.jpg",
+					"version" : "iBoot-1145.3",
+					"from" : "N41AP EVT1",
+					"desc" : "Bootrom for iPhone 5 and 5C. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8955xsi, iBoot-1145.3.3",
+					"name" : "SecureROM for s5l8955xsi",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A6X_chip.jpg",
+					"version" : "iBoot-1145.3.3",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPad 4. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8960xsi, iBoot-1704.10",
+					"name" : "SecureROM for s5l8960xsi",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A7_chip.jpg",
+					"version" : "iBoot-1704.10",
+					"from" : "J71AP EVT",
+					"desc" : "Bootrom for iPhone 5S, iPad Air 1, iPad mini 2 and 3. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t7000si, iBoot-1873.0.0.1.19",
+					"name" : "SecureROM for t7000si (first revision)",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A8_system-on-a-chip.jpg",
+					"version" : "iBoot-1873.0.0.1.19",
+					"from" : "T137AP",
+					"desc" : "Bootrom for first revision Fiji (A8). Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t7000si, iBoot-1992.0.0.1.19",
+					"name" : "SecureROM for t7000si",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A8_system-on-a-chip.jpg",
+					"version" : "iBoot-1992.0.0.1.19",
+					"from" : "N102AP EVT",
+					"desc" : "Bootrom for iPhone 6 (Plus), iPad mini 4, Apple TV 4, iPod touch 6, HomePod and, allegedly, AirPower. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t7001si, iBoot-1991.0.0.2.16",
+					"name" : "SecureROM for t7001si",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A8X_system-on-a-chip.jpg",
+					"version" : "iBoot-1991.0.0.2.16",
+					"from" : "J82AP EVT",
+					"desc" : "Bootrom for iPad Air 2. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s8000si, iBoot-2234.0.0.3.3",
+					"name" : "SecureROM for s8000si",
+					"date" : "25.11.19",
+					"picture" : "resources/Apple_A9_APL0898.jpg",
+					"version" : "iBoot-2234.0.0.3.3",
+					"from" : "N69uAP",
+					"desc" : "A9 Samsung. Bootrom for iPhone 6S (Plus), iPhone SE, iPad 5. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s8003si, iBoot-2234.0.0.2.22",
+					"name" : "SecureROM for s8003si",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A9_APL1022.jpg",
+					"version" : "iBoot-2234.0.0.2.22",
+					"from" : "J112 DVT",
+					"desc" : "A9 TSMC. Bootrom for iPhone 6S (Plus), iPhone SE, iPad 5. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8010si, iBoot-2696.0.0.1.33",
+					"name" : "SecureROM for t8010si",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A10_Fusion_APL1W24.jpg",
+					"version" : "iBoot-2696.0.0.1.33",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPhone 7 (Plus), iPad 6, iPod touch 7 and iPad 7. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8002si, iBoot-2651.0.0.1.31",
+					"name" : "SecureROM for t8002si",
+					"date" : "8.12.19",
+					"picture" : "resources/Apple_T1_APL1023.jpg",
+					"version" : "iBoot-2651.0.0.1.31",
+					"from" : "unknown",
+					"desc" : "Bootrom for Apple Watch Series 1/2 and iBridge 1st-gen. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.2.3",
+					"name" : "SecureROM for t8011si",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A10X_Fusion.jpg",
+					"version" : "iBoot-3135.0.0.2.3",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPad Pro (2017) and Apple TV 4K. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8015si, iBoot-3332.0.0.1.23",
+					"name" : "SecureROM for t8015si",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A11.jpg",
+					"version" : "iBoot-3332.0.0.1.23",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPhone 8 (Plus) and X. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.4.6",
+					"name" : "SecureROM for t8020si (non-production)",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A12.jpg",
+					"version" : "iBoot-3865.0.0.4.6",
+					"from" : "D321AP DVT",
+					"desc" : "Bootrom for iPhone XR, XS (Max), iPad Air 3 and iPad mini 5"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.4.7",
+					"name" : "SecureROM for t8020si",
+					"date" : "8.12.19",
+					"picture" : "resources/Apple_A12.jpg",
+					"version" : "iBoot-3865.0.0.4.7",
+					"from" : "D321AP",
+					"desc" : "Bootrom for iPhone XR, XS (Max), iPad Air 3 and iPad mini 5"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8030si, iBoot-4479.0.0.100.4",
+					"name" : "SecureROM for t8030si",
+					"date" : "25.11.19",
+					"picture" : "resources/a13_bionic_die.jpg",
+					"version" : "iBoot-4479.0.0.100.4",
+					"from" : "D421AP DVT",
+					"desc" : "Bootrom for iPhone 11, 11 Pro, 11 Pro Max"
+				}
+			]
+		 },
+
+ "seps" : {"roms" : [
+ 				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-A7-B0",
+					"name" : "Alcatraz B0 SEPROM",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A7_S5L9865_chip.jpg",
+					"version" : "unknown",
+					"from" : "J71AP EVT",
+					"desc" : "SEPROM from A7 of revision B0 (release revision is B1). It doesn't have anything that seems like a build tag"
+ 				},
+ 				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-156.0.0.1.10",
+					"name" : "Fiji A0 SEPROM",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A8_system-on-a-chip.jpg",
+					"version" : "AppleSEPROM-156.0.0.1.10",
+					"from" : "T137AP",
+					"desc" : "SEPROM from A8 of revision A0 (very first one, latest is B1)"
+ 				},
+ 				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-175.0.0.1.9",
+					"name" : "Fiji B1 SEPROM",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A8_system-on-a-chip.jpg",
+					"version" : "AppleSEPROM-175.0.0.1.9",
+					"from" : "N102AP",
+					"desc" : "SEPROM from A8 of revision B1 (latest one)"
+ 				},
+ 				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-230.0.0.4.1",
+					"name" : "Malta A1 SEPROM",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A9_APL1022.jpg",
+					"version" : "AppleSEPROM-230.0.0.4.1",
+					"from" : "J112AP",
+					"desc" : "SEPROM from A9 (TSMC) of revision A1"
+ 				}
+ 			]
+ 		  }
+}
