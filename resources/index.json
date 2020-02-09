@@ -82,6 +82,24 @@
 					"desc" : "Bootrom for iPad 4. Vulnerable to checkm8"
 				},
 				{
+					"link" : "resources/APROM/SecureROM for s5l8747xsi, iBoot-1413.8",
+					"name" : "SecureROM for s5l8747xsi",
+					"date" : "9.2.20",
+					"picture" : "",
+					"version" : "iBoot-1413.8",
+					"from" : "B165",
+					"desc" : "Bootrom for Haywire. Vulnerable to checkm8. Thanks to @a1exdandy"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8947xsi, iBoot-1458.2",
+					"name" : "SecureROM for s5l8747xsi",
+					"date" : "9.2.20",
+					"picture" : "resources/Apple-A5-APL7498.jpg",
+					"version" : "iBoot-1458.2",
+					"from" : "J33i",
+					"desc" : "Bootrom for Apple TV 3 (3,2). Vulnerable to checkm8"
+				},
+				{
 					"link" : "resources/APROM/SecureROM for s5l8960xsi, iBoot-1704.10",
 					"name" : "SecureROM for s5l8960xsi",
 					"date" : "26.10.19",
@@ -118,6 +136,15 @@
 					"desc" : "Bootrom for iPad Air 2. Vulnerable to checkm8"
 				},
 				{
+					"link" : "resources/APROM/SecureROM for s7002si, iBoot-2098.0.0.2.4",
+					"name" : "SecureROM for s7002si",
+					"date" : "9.2.20",
+					"picture" : "resources/Apple_S1_module.png",
+					"version" : "iBoot-2098.0.0.2.4",
+					"from" : "unknown",
+					"desc" : "Bootrom for Apple Watch 1st-gen. Vulnerable to checkm8. Thanks to @a1exdandy and @chiptunext"
+				},
+				{
 					"link" : "resources/APROM/SecureROM for s8000si, iBoot-2234.0.0.3.3",
 					"name" : "SecureROM for s8000si",
 					"date" : "25.11.19",
@@ -152,6 +179,15 @@
 					"version" : "iBoot-2651.0.0.1.31",
 					"from" : "unknown",
 					"desc" : "Bootrom for Apple Watch Series 1/2 and iBridge 1st-gen. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8004si, iBoot-2651.0.0.3.3",
+					"name" : "SecureROM for t8004si",
+					"date" : "9.2.20",
+					"picture" : "resources/Apple_S3_module.png",
+					"version" : "iBoot-2651.0.0.3.3",
+					"from" : "unknown",
+					"desc" : "Bootrom for Apple Watch S3"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.2.3",
