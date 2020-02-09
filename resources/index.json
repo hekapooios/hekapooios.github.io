@@ -187,7 +187,7 @@
 					"picture" : "resources/Apple_S3_module.png",
 					"version" : "iBoot-2651.0.0.3.3",
 					"from" : "unknown",
-					"desc" : "Bootrom for Apple Watch S3"
+					"desc" : "Bootrom for Apple Watch S3. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.2.3",
