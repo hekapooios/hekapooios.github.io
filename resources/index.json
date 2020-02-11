@@ -88,7 +88,7 @@
 					"picture" : "",
 					"version" : "iBoot-1413.8",
 					"from" : "B165",
-					"desc" : "Bootrom for Haywire. Vulnerable to checkm8. Thanks to @a1exdandy"
+					"desc" : "Bootrom for Haywire. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for s5l8947xsi, iBoot-1458.2",
@@ -118,15 +118,6 @@
 					"desc" : "Bootrom for first revision Fiji (A8). Vulnerable to checkm8"
 				},
 				{
-					"link" : "resources/APROM/SecureROM for t7000si, iBoot-1992.0.0.1.19",
-					"name" : "SecureROM for t7000si",
-					"date" : "26.10.19",
-					"picture" : "resources/Apple_A8_system-on-a-chip.jpg",
-					"version" : "iBoot-1992.0.0.1.19",
-					"from" : "N102AP EVT",
-					"desc" : "Bootrom for iPhone 6 (Plus), iPad mini 4, Apple TV 4, iPod touch 6, HomePod and, allegedly, AirPower. Vulnerable to checkm8"
-				},
-				{
 					"link" : "resources/APROM/SecureROM for t7001si, iBoot-1991.0.0.2.16",
 					"name" : "SecureROM for t7001si",
 					"date" : "26.10.19",
@@ -136,21 +127,30 @@
 					"desc" : "Bootrom for iPad Air 2. Vulnerable to checkm8"
 				},
 				{
+					"link" : "resources/APROM/SecureROM for t7000si, iBoot-1992.0.0.1.19",
+					"name" : "SecureROM for t7000si",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A8_system-on-a-chip.jpg",
+					"version" : "iBoot-1992.0.0.1.19",
+					"from" : "N102AP EVT",
+					"desc" : "Bootrom for iPhone 6 (Plus), iPad mini 4, Apple TV 4, iPod touch 6, HomePod and, allegedly, AirPower. Vulnerable to checkm8"
+				},
+				{
 					"link" : "resources/APROM/SecureROM for s7002si, iBoot-2098.0.0.2.4",
 					"name" : "SecureROM for s7002si",
 					"date" : "9.2.20",
 					"picture" : "resources/Apple_S1_module.png",
 					"version" : "iBoot-2098.0.0.2.4",
 					"from" : "unknown",
-					"desc" : "Bootrom for Apple Watch 1st-gen. Vulnerable to checkm8. Thanks to @a1exdandy and @chiptunext"
+					"desc" : "Bootrom for Apple Watch 1st-gen. Vulnerable to checkm8"
 				},
 				{
-					"link" : "resources/APROM/SecureROM for s8000si, iBoot-2234.0.0.3.3",
-					"name" : "SecureROM for s8000si",
-					"date" : "25.11.19",
+					"link" : "resources/APROM/SecureROM for s8000si, iBoot-2234.0.0.2.22",
+					"name" : "SecureROM for s8000si (non-production)",
+					"date" : "10.2.20",
 					"picture" : "resources/Apple_A9_APL0898.jpg",
-					"version" : "iBoot-2234.0.0.3.3",
-					"from" : "N69uAP",
+					"version" : "iBoot-2234.0.0.2.22",
+					"from" : "N66AP EVT",
 					"desc" : "A9 Samsung. Bootrom for iPhone 6S (Plus), iPhone SE, iPad 5. Vulnerable to checkm8"
 				},
 				{
@@ -163,13 +163,13 @@
 					"desc" : "A9 TSMC. Bootrom for iPhone 6S (Plus), iPhone SE, iPad 5. Vulnerable to checkm8"
 				},
 				{
-					"link" : "resources/APROM/SecureROM for t8010si, iBoot-2696.0.0.1.33",
-					"name" : "SecureROM for t8010si",
-					"date" : "26.10.19",
-					"picture" : "resources/Apple_A10_Fusion_APL1W24.jpg",
-					"version" : "iBoot-2696.0.0.1.33",
-					"from" : "unknown",
-					"desc" : "Bootrom for iPhone 7 (Plus), iPad 6, iPod touch 7 and iPad 7. Vulnerable to checkm8"
+					"link" : "resources/APROM/SecureROM for s8000si, iBoot-2234.0.0.3.3",
+					"name" : "SecureROM for s8000si",
+					"date" : "25.11.19",
+					"picture" : "resources/Apple_A9_APL0898.jpg",
+					"version" : "iBoot-2234.0.0.3.3",
+					"from" : "N69uAP",
+					"desc" : "A9 Samsung. Bootrom for iPhone 6S (Plus), iPhone SE, iPad 5. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8002si, iBoot-2651.0.0.1.31",
@@ -188,6 +188,15 @@
 					"version" : "iBoot-2651.0.0.3.3",
 					"from" : "unknown",
 					"desc" : "Bootrom for Apple Watch S3. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8010si, iBoot-2696.0.0.1.33",
+					"name" : "SecureROM for t8010si",
+					"date" : "26.10.19",
+					"picture" : "resources/Apple_A10_Fusion_APL1W24.jpg",
+					"version" : "iBoot-2696.0.0.1.33",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPhone 7 (Plus), iPad 6, iPod touch 7 and iPad 7. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.2.3",
@@ -266,7 +275,16 @@
 					"desc" : "SEPROM from A8 of revision B1 (latest one)"
  				},
  				{
- 					"link" : "resources/SEPROM/AppleSEPROM-230.0.0.4.1",
+ 					"link" : "resources/SEPROM/AppleSEPROM-230.0.0.4.1 (S8000)",
+					"name" : "Maui B0 SEPROM",
+					"date" : "10.2.20",
+					"picture" : "resources/Apple_A9_APL0898.jpg",
+					"version" : "AppleSEPROM-230.0.0.4.1",
+					"from" : "N66AP",
+					"desc" : "SEPROM from A9 (Samsung) of revision B0"
+ 				},
+ 				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-230.0.0.4.1 (S8003)",
 					"name" : "Malta A1 SEPROM",
 					"date" : "26.10.19",
 					"picture" : "resources/Apple_A9_APL1022.jpg",
