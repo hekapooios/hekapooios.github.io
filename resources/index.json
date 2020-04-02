@@ -64,6 +64,24 @@
 					"desc" : "Bootrom for iPhone 4, iPod touch 4G, iPad 1G and Apple TV 2G. Vulnerable to limera1n and SHAtter"
 				},
 				{
+					"link" : "resources/APROM/SecureROM for s5l8940xsi, iBoot-838.3",
+					"name" : "SecureROM for s5l8940xsi",
+					"date" : "2.4.20",
+					"picture" : "resources/Apple_A5_Chip.jpg",
+					"version" : "iBoot-838.3",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPhone 4S and iPad 2 (2,1, 2,2, 2,3). Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s5l8942xsi, rom",
+					"name" : "SecureROM for s5l8942xsi",
+					"date" : "2.4.20",
+					"picture" : "resources/Apple-A5-APL2498.jpg",
+					"version" : "rom",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPod touch 5, iPad mini 1G, iPad 2 (2,4) and Apple TV 3 (3,1). Vulnerable to checkm8"
+				},
+				{
 					"link" : "resources/APROM/SecureROM for s5l8950xsi, iBoot-1145.3",
 					"name" : "SecureROM for s5l8950xsi",
 					"date" : "26.10.19",
@@ -87,16 +105,16 @@
 					"date" : "9.2.20",
 					"picture" : "",
 					"version" : "iBoot-1413.8",
-					"from" : "B165",
+					"from" : "B165AP",
 					"desc" : "Bootrom for Haywire. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for s5l8947xsi, iBoot-1458.2",
-					"name" : "SecureROM for s5l8947xsi",
+					"name" : "SecureROM for s5l8747xsi",
 					"date" : "9.2.20",
 					"picture" : "resources/Apple-A5-APL7498.jpg",
 					"version" : "iBoot-1458.2",
-					"from" : "J33i",
+					"from" : "J33iAP",
 					"desc" : "Bootrom for Apple TV 3 (3,2). Vulnerable to checkm8"
 				},
 				{
@@ -133,7 +151,7 @@
 					"picture" : "resources/Apple_A8_system-on-a-chip.jpg",
 					"version" : "iBoot-1992.0.0.1.19",
 					"from" : "N102AP EVT",
-					"desc" : "Bootrom for iPhone 6 (Plus), iPad mini 4, Apple TV 4, iPod touch 6, HomePod and, allegedly, AirPower. Vulnerable to checkm8"
+					"desc" : "Bootrom for iPhone 6 [Plus], iPad mini 4, Apple TV 4, iPod touch 6, HomePod and, allegedly, AirPower. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for s7002si, iBoot-2098.0.0.2.4",
@@ -151,7 +169,7 @@
 					"picture" : "resources/Apple_A9_APL0898.jpg",
 					"version" : "iBoot-2234.0.0.2.22",
 					"from" : "N66AP EVT",
-					"desc" : "A9 Samsung. Bootrom for iPhone 6S (Plus), iPhone SE, iPad 5. Vulnerable to checkm8"
+					"desc" : "A9 Samsung. Bootrom for iPhone 6S [Plus], iPhone SE, iPad 5. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for s8003si, iBoot-2234.0.0.2.22",
@@ -160,7 +178,7 @@
 					"picture" : "resources/Apple_A9_APL1022.jpg",
 					"version" : "iBoot-2234.0.0.2.22",
 					"from" : "J112 DVT",
-					"desc" : "A9 TSMC. Bootrom for iPhone 6S (Plus), iPhone SE, iPad 5. Vulnerable to checkm8"
+					"desc" : "A9 TSMC. Bootrom for iPhone 6S [Plus], iPhone SE, iPad 5. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for s8000si, iBoot-2234.0.0.3.3",
@@ -169,7 +187,7 @@
 					"picture" : "resources/Apple_A9_APL0898.jpg",
 					"version" : "iBoot-2234.0.0.3.3",
 					"from" : "N69uAP",
-					"desc" : "A9 Samsung. Bootrom for iPhone 6S (Plus), iPhone SE, iPad 5. Vulnerable to checkm8"
+					"desc" : "A9 Samsung. Bootrom for iPhone 6S [Plus], iPhone SE, iPad 5. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8002si, iBoot-2651.0.0.1.31",
@@ -196,7 +214,7 @@
 					"picture" : "resources/Apple_A10_Fusion_APL1W24.jpg",
 					"version" : "iBoot-2696.0.0.1.33",
 					"from" : "unknown",
-					"desc" : "Bootrom for iPhone 7 (Plus), iPad 6, iPod touch 7 and iPad 7. Vulnerable to checkm8"
+					"desc" : "Bootrom for iPhone 7 [Plus], iPad 6, iPod touch 7 and iPad 7. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.2.3",
@@ -214,7 +232,16 @@
 					"picture" : "resources/Apple_A11.jpg",
 					"version" : "iBoot-3332.0.0.1.23",
 					"from" : "unknown",
-					"desc" : "Bootrom for iPhone 8 (Plus) and X. Vulnerable to checkm8"
+					"desc" : "Bootrom for iPhone 8 [Plus] and X. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8012si, iBoot-3401.0.0.1.16",
+					"name" : "SecureROM for t8012si",
+					"date" : "2.4.20",
+					"picture" : "resources/Apple_T2_APL1027.jpg",
+					"version" : "iBoot-3401.0.0.1.16",
+					"from" : "unknown",
+					"desc" : "Bootrom for iBridge 2nd-gen. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.4.6",
@@ -223,7 +250,7 @@
 					"picture" : "resources/Apple_A12.jpg",
 					"version" : "iBoot-3865.0.0.4.6",
 					"from" : "D321AP DVT",
-					"desc" : "Bootrom for iPhone XR, XS (Max), iPad Air 3 and iPad mini 5"
+					"desc" : "Bootrom for iPhone XR, XS [Max], iPad Air 3 and iPad mini 5"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.4.7",
@@ -232,7 +259,7 @@
 					"picture" : "resources/Apple_A12.jpg",
 					"version" : "iBoot-3865.0.0.4.7",
 					"from" : "D321AP",
-					"desc" : "Bootrom for iPhone XR, XS (Max), iPad Air 3 and iPad mini 5"
+					"desc" : "Bootrom for iPhone XR, XS [Max], iPad Air 3 and iPad mini 5"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8030si, iBoot-4479.0.0.100.4",
@@ -241,7 +268,7 @@
 					"picture" : "resources/a13_bionic_die.jpg",
 					"version" : "iBoot-4479.0.0.100.4",
 					"from" : "D421AP DVT",
-					"desc" : "Bootrom for iPhone 11, 11 Pro, 11 Pro Max"
+					"desc" : "Bootrom for iPhone 11, 11 Pro [Max]"
 				}
 			]
 		 },
