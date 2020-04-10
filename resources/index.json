@@ -118,6 +118,15 @@
 					"desc" : "Bootrom for Apple TV 3 (3,2). Vulnerable to checkm8"
 				},
 				{
+					"link" : "resources/APROM/SecureROM for s5l8960xsi, iBoot-1585.4",
+					"name" : "SecureROM for s5l8960xsi",
+					"date" : "10.4.20",
+					"picture" : "resources/Apple_A7_chip.jpg",
+					"version" : "iBoot-1585.4",
+					"from" : "N53AP EVT1a",
+					"desc" : "Bootrom for first revision Alcatraz (A7). Vulnerable to checkm8"
+				},
+				{
 					"link" : "resources/APROM/SecureROM for s5l8960xsi, iBoot-1704.10",
 					"name" : "SecureROM for s5l8960xsi",
 					"date" : "26.10.19",
@@ -274,6 +283,15 @@
 		 },
 
  "seps" : {"roms" : [
+ 				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-A7-A0",
+					"name" : "Alcatraz A0 SEPROM",
+					"date" : "10.4.20",
+					"picture" : "resources/Apple_A7_chip.jpg",
+					"version" : "unknown",
+					"from" : "N53AP EVT1a",
+					"desc" : "SEPROM from A7 of revision A0 (release revision is B1). It doesn't have anything that seems like a build tag"
+ 				},
  				{
  					"link" : "resources/SEPROM/AppleSEPROM-A7-B0",
 					"name" : "Alcatraz B0 SEPROM",
