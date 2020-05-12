@@ -110,7 +110,7 @@
 				},
 				{
 					"link" : "resources/APROM/SecureROM for s5l8947xsi, iBoot-1458.2",
-					"name" : "SecureROM for s5l8747xsi",
+					"name" : "SecureROM for s5l8947xsi",
 					"date" : "9.2.20",
 					"picture" : "resources/Apple-A5-APL7498.jpg",
 					"version" : "iBoot-1458.2",
@@ -186,7 +186,7 @@
 					"date" : "26.10.19",
 					"picture" : "resources/Apple_A9_APL1022.jpg",
 					"version" : "iBoot-2234.0.0.2.22",
-					"from" : "J112 DVT",
+					"from" : "J112 PROTO0",
 					"desc" : "A9 TSMC. Bootrom for iPhone 6S [Plus], iPhone SE, iPad 5. Vulnerable to checkm8"
 				},
 				{
@@ -197,6 +197,24 @@
 					"version" : "iBoot-2234.0.0.3.3",
 					"from" : "N69uAP",
 					"desc" : "A9 Samsung. Bootrom for iPhone 6S [Plus], iPhone SE, iPad 5. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s8001si, iBoot-2481.0.0.1.6",
+					"name" : "SecureROM for s8001si (non-production)",
+					"date" : "12.5.20",
+					"picture" : "resources/Apple_A9X.jpg",
+					"version" : "iBoot-2481.0.0.1.6",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPad Pro (1st-gen). Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for s8001si, iBoot-2481.0.0.2.1",
+					"name" : "SecureROM for s8001si",
+					"date" : "12.5.20",
+					"picture" : "resources/Apple_A9X.jpg",
+					"version" : "iBoot-2481.0.0.2.1",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPad Pro (1st-gen). Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8002si, iBoot-2651.0.0.1.31",
@@ -214,7 +232,7 @@
 					"picture" : "resources/Apple_S3_module.png",
 					"version" : "iBoot-2651.0.0.3.3",
 					"from" : "unknown",
-					"desc" : "Bootrom for Apple Watch S3. Vulnerable to checkm8"
+					"desc" : "Bootrom for Apple Watch Series 3. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8010si, iBoot-2696.0.0.1.33",
@@ -224,6 +242,15 @@
 					"version" : "iBoot-2696.0.0.1.33",
 					"from" : "unknown",
 					"desc" : "Bootrom for iPhone 7 [Plus], iPad 6, iPod touch 7 and iPad 7. Vulnerable to checkm8"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.1.12",
+					"name" : "SecureROM for t8011si (non-production)",
+					"date" : "12.5.20",
+					"picture" : "resources/Apple_A10X_Fusion.jpg",
+					"version" : "iBoot-3135.0.0.1.12",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPad Pro (2017) and Apple TV 4K. Vulnerable to checkm8"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.2.3",
@@ -271,6 +298,15 @@
 					"desc" : "Bootrom for iPhone XR, XS [Max], iPad Air 3 and iPad mini 5"
 				},
 				{
+					"link" : "resources/APROM/SecureROM for t8006si, iBoot-3988.0.0.2.12",
+					"name" : "SecureROM for t8006si",
+					"date" : "12.5.20",
+					"picture" : "resources/Apple_S4_module.png",
+					"version" : "iBoot-3988.0.0.2.12",
+					"from" : "unknown",
+					"desc" : "Bootrom for Apple Watch Series 4/5"
+				},
+				{
 					"link" : "resources/APROM/SecureROM for t8030si, iBoot-4479.0.0.100.4",
 					"name" : "SecureROM for t8030si",
 					"date" : "25.11.19",
@@ -316,7 +352,7 @@
 					"date" : "26.10.19",
 					"picture" : "resources/Apple_A8_system-on-a-chip.jpg",
 					"version" : "AppleSEPROM-175.0.0.1.9",
-					"from" : "N102AP",
+					"from" : "N102AP DVT",
 					"desc" : "SEPROM from A8 of revision B1 (latest one)"
  				},
  				{
@@ -325,7 +361,7 @@
 					"date" : "10.2.20",
 					"picture" : "resources/Apple_A9_APL0898.jpg",
 					"version" : "AppleSEPROM-230.0.0.4.1",
-					"from" : "N66AP",
+					"from" : "N66AP EVT",
 					"desc" : "SEPROM from A9 (Samsung) of revision B0"
  				},
  				{
@@ -334,8 +370,26 @@
 					"date" : "26.10.19",
 					"picture" : "resources/Apple_A9_APL1022.jpg",
 					"version" : "AppleSEPROM-230.0.0.4.1",
-					"from" : "J112AP",
+					"from" : "J112AP PROTO0",
 					"desc" : "SEPROM from A9 (TSMC) of revision A1"
+ 				},
+ 				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-241.0.0.1.1",
+					"name" : "Elba A0 SEPROM",
+					"date" : "12.5.20",
+					"picture" : "resources/Apple_A9X.jpg",
+					"version" : "AppleSEPROM-241.0.0.1.1",
+					"from" : "unknown",
+					"desc" : "SEPROM from A9X of revision A0"
+ 				},
+ 				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-302.0.0.1.2",
+					"name" : "Myst A0 SEPROM",
+					"date" : "12.5.20",
+					"picture" : "resources/Apple_A10X_Fusion.jpg",
+					"version" : "AppleSEPROM-302.0.0.1.2",
+					"from" : "unknown",
+					"desc" : "SEPROM from A10X of revision A0"
  				}
  			]
  		  }
