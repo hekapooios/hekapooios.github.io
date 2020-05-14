@@ -82,6 +82,15 @@
 					"desc" : "Bootrom for iPod touch 5, iPad mini 1G, iPad 2 (2,4) and Apple TV 3 (3,1). Vulnerable to checkm8"
 				},
 				{
+					"link" : "resources/APROM/SecureROM for s5l8945xsi, iBoot-1062.2",
+					"name" : "SecureROM for s5l8945xsi",
+					"date" : "14.5.20",
+					"picture" : "resources/Apple_A5X_Chip.jpg",
+					"version" : "iBoot-1062.2",
+					"from" : "unknown",
+					"desc" : "Bootrom for iPad 3. Vulnerable to checkm8"
+				},
+				{
 					"link" : "resources/APROM/SecureROM for s5l8950xsi, iBoot-1145.3",
 					"name" : "SecureROM for s5l8950xsi",
 					"date" : "26.10.19",
@@ -356,6 +365,15 @@
 					"desc" : "SEPROM from A8 of revision B1 (latest one)"
  				},
  				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-175.0.0.2.5",
+					"name" : "Capri A1 SEPROM",
+					"date" : "14.5.20",
+					"picture" : "resources/Apple_A8X_system-on-a-chip.jpg",
+					"version" : "AppleSEPROM-175.0.0.2.5",
+					"from" : "unknown",
+					"desc" : "SEPROM from A8X of revision A1 (latest one)"
+ 				},
+ 				{
  					"link" : "resources/SEPROM/AppleSEPROM-230.0.0.4.1 (S8000)",
 					"name" : "Maui B0 SEPROM",
 					"date" : "10.2.20",
@@ -371,7 +389,7 @@
 					"picture" : "resources/Apple_A9_APL1022.jpg",
 					"version" : "AppleSEPROM-230.0.0.4.1",
 					"from" : "J112AP PROTO0",
-					"desc" : "SEPROM from A9 (TSMC) of revision A1"
+					"desc" : "SEPROM from A9 (TSMC) of revision A1 (latest one)"
  				},
  				{
  					"link" : "resources/SEPROM/AppleSEPROM-241.0.0.1.1",
@@ -383,6 +401,15 @@
 					"desc" : "SEPROM from A9X of revision A0"
  				},
  				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-268.0.0.1.16",
+					"name" : "Cayman B1 SEPROM",
+					"date" : "14.5.20",
+					"picture" : "resources/Apple_A10_Fusion_APL1W24.jpg",
+					"version" : "AppleSEPROM-268.0.0.1.16",
+					"from" : "unknown",
+					"desc" : "SEPROM from A10 of revision B1 (latest one)"
+ 				},
+ 				{
  					"link" : "resources/SEPROM/AppleSEPROM-302.0.0.1.2",
 					"name" : "Myst A0 SEPROM",
 					"date" : "12.5.20",
@@ -390,6 +417,15 @@
 					"version" : "AppleSEPROM-302.0.0.1.2",
 					"from" : "unknown",
 					"desc" : "SEPROM from A10X of revision A0"
+ 				},
+ 				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-302.0.0.2.1",
+					"name" : "Myst B0 SEPROM",
+					"date" : "14.5.20",
+					"picture" : "resources/Apple_A10X_Fusion.jpg",
+					"version" : "AppleSEPROM-302.0.0.2.1",
+					"from" : "unknown",
+					"desc" : "SEPROM from A10X of revision B0 (latest one)"
  				}
  			]
  		  }
