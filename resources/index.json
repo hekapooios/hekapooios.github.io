@@ -28,6 +28,15 @@
 					"desc" : "iPod touch 2G new bootrom. Vulnerable to steaks4uce"
 				},
 				{
+					"link" : "resources/APROM/SecureROM for s5l8920xsi, iBoot-284.6",
+					"name" : "SecureROM for s5l8920xsi (non-production)",
+					"date" : "27.5.20",
+					"picture" : "resources/S5L8920.jpg",
+					"version" : "iBoot-284.6",
+					"from" : "N88AP Proto1",
+					"desc" : "iPhone 3GS old bootrom. Vulnerable to 24kpwn and limera1n"
+				},
+				{
 					"link" : "resources/APROM/SecureROM for s5l8920xsi, iBoot-359.3",
 					"name" : "SecureROM for s5l8920xsi (old)",
 					"date" : "26.10.19",
