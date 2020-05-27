@@ -34,7 +34,7 @@
 					"picture" : "resources/S5L8920.jpg",
 					"version" : "iBoot-284.6",
 					"from" : "N88AP Proto1",
-					"desc" : "iPhone 3GS old bootrom. Vulnerable to 24kpwn and limera1n"
+					"desc" : "iPhone 3GS non-production bootrom. Vulnerable to 24kpwn and limera1n"
 				},
 				{
 					"link" : "resources/APROM/SecureROM for s5l8920xsi, iBoot-359.3",
