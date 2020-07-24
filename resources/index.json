@@ -435,6 +435,15 @@
 					"version" : "AppleSEPROM-302.0.0.2.1",
 					"from" : "unknown",
 					"desc" : "SEPROM from A10X of revision B0 (latest one)"
+ 				},
+ 				{
+ 					"link" : "resources/SEPROM/AppleSEPROM-S4-S5-B1",
+					"name" : "M9 B1 SEPROM",
+					"date" : "24.7.20",
+					"picture" : "resources/Apple_S5_module.png",
+					"version" : "private_build...(root@pudding.apple.com)...2017/05/30...14:40:04...",
+					"from" : "N146sAP",
+					"desc" : "SEPROM from S4/S5 of revision B1 (latest one)"
  				}
  			]
  		  }
