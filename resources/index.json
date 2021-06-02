@@ -332,6 +332,15 @@
 					"version" : "iBoot-4479.0.0.100.4",
 					"from" : "D421AP DVT",
 					"desc" : "Bootrom for iPhone 11, 11 Pro [Max]"
+				},
+				{
+					"link" : "resources/APROM/SecureROM for t8101si, iBoot-5281.0.0.100.22",
+					"name" : "SecureROM for t8101si (non-production)",
+					"date" : "2.6.21",
+					"picture" : "resources/Apple_A14.jpg",
+					"version" : "iBoot-5281.0.0.100.22",
+					"from" : "D53gAP pre-EVT",
+					"desc" : "Bootrom for iPhone 12 [mini], 12 Pro [Max] and iPad Air 4"
 				}
 			]
 		 },
@@ -444,7 +453,16 @@
 					"version" : "private_build...(root@pudding.apple.com)...2017/05/30...14:40:04...",
 					"from" : "N146sAP",
 					"desc" : "SEPROM from S4/S5 of revision B1 (latest one)"
- 				}
+ 				},
+				{
+					"link" : "resources/SEPROM/AppleSEPROM-Sicily-A0",
+					"name" : "Sicily A0 SEPROM",
+					"date" : "2.6.21",
+					"picture" : "resources/Apple_A14.jpg",
+					"version" : "private_build...(root@squash.sd.apple.com)...2019/03/16...00:42:21...",
+					"from" : "D53gAP pre-EVT",
+					"desc" : "SEPROM from A14 of revision A0 (first one)"
+				}
  			]
  		  }
 }
