@@ -454,7 +454,7 @@
 					"from" : "unknown",
 					"desc" : "SEPROM from A10X of revision B0 (latest one)"
  				},
-		{
+				{
  					"link" : "resources/SEPROM/AppleSEPROM-A12-D331pAP",
 					"name" : "Cyprus SEPROM",
 					"date" : "30.11.21",
