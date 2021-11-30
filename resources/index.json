@@ -298,6 +298,15 @@
 					"desc" : "Bootrom for iBridge 2nd-gen. Vulnerable to checkm8"
 				},
 				{
+					"link" : "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.1.23",
+					"name" : "SecureROM for t8020si (non-production)",
+					"date" : "30.11.21",
+					"picture" : "resources/Apple_A12.jpg",
+					"version" : "iBoot-3865.0.0.1.23",
+					"from" : "D331pAP Proto",
+					"desc" : "Bootrom for iPhone XR, XS [Max], iPad Air 3 and iPad mini 5"
+				},
+				{
 					"link" : "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.4.6",
 					"name" : "SecureROM for t8020si (non-production)",
 					"date" : "26.10.19",
@@ -444,6 +453,15 @@
 					"version" : "AppleSEPROM-302.0.0.2.1",
 					"from" : "unknown",
 					"desc" : "SEPROM from A10X of revision B0 (latest one)"
+ 				},
+		{
+ 					"link" : "resources/SEPROM/AppleSEPROM-A12-D331pAP",
+					"name" : "Cyprus SEPROM",
+					"date" : "30.11.21",
+					"picture" : "resources/Apple_A12.jpg",
+					"version" : "private_build...(root@pilaf.apple.com)...2017/04/26...13:42:13...",
+					"from" : "D331pAP",
+					"desc" : "SEPROM from A12"
  				},
  				{
  					"link" : "resources/SEPROM/AppleSEPROM-S4-S5-B1",
