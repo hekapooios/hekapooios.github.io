@@ -1,5 +1,4 @@
 function fillTab(tab, tabContents) {
-
 	if (!parsed) {
 		tabContents.innerHTML = "Error loading tab";
 		return;
@@ -18,25 +17,23 @@ function fillTab(tab, tabContents) {
 		if (xhr.status != 200) {
 		    tabContents.innerHTML = "Error loading template";
 		} else {
-
 			var templateText = xhr.responseText;
 
 			if (tab.id == "ap-tab")
 				tabContents.innerHTML = Mustache.render(templateText, parsed["aps"]);
 			else if (tab.id == "sep-tab")
 				tabContents.innerHTML = Mustache.render(templateText, parsed["seps"]);
+			else if (tab.id == "rtkit-tab")
+				tabContents.innerHTML = Mustache.render(templateText, parsed["rtkits"]);
+			else if (tab.id == "samsung-tab")
+				tabContents.innerHTML = Mustache.render(templateText, parsed["samsungs"]);
 
 			tab.inited = 1;
-
 		}
-
 	}
-
 }
 
-
 function tabHandler(event) {
-
 	var requestedTab = event.srcElement;
 	var activeTab = document.getElementById("tabs").getElementsByClassName("tab-active-dark")[0];
 
@@ -56,20 +53,18 @@ function tabHandler(event) {
 	if (!requestedTab.inited) {
 		fillTab(requestedTab, requestedTabContents);
 	}
-
 }
 
 var parsed = undefined;
 
 function main() {
-
 	var mainElement = document.getElementById("main");
 	var errorElement = document.getElementById("error");
 	var footerElement = document.getElementsByTagName("footer")[0];
 
 	var xhr = new XMLHttpRequest();
 
-	xhr.open("GET", "resources/index.json?v=9", true);
+	xhr.open("GET", "resources/index.json?v=11", true);
 	xhr.send();
 	xhr.onreadystatechange = function() {
 
@@ -78,7 +73,6 @@ function main() {
 		if (xhr.status != 200) {
 		    errorElement.hidden = false;
 		} else {
-
 			try {
 				parsed = JSON.parse(xhr.responseText);
 			} catch (error) {
@@ -98,10 +92,7 @@ function main() {
 		    footerElement.hidden = false;
 
 		}
-
-		
 	};
 
 	return false;
-
 }

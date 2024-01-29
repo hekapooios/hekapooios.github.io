@@ -1,0 +1,155 @@
+@font-face {
+    font-family: SourceSansPro-Light;
+    src: url(fonts/SourceSansPro-Light.ttf);
+}
+
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: UniSans-Heavy;
+    src: url(fonts/UniSans-Heavy.otf);
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(#090A0F, #1B2735);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+div.main {
+    padding-top: 10px;
+    max-width: 900px;
+    margin: auto;
+}
+
+div.text {
+    margin: 8px 15px 95px 15px;
+    font-family: SourceSansPro-Regular;
+    font-size: 20px;
+}
+
+div.desc {
+    font-family: SourceSansPro-Light;
+    color: gray;
+    font-size: 18px;
+}
+
+h1, h3, h4 {
+    font-family: UniSans-Heavy;
+}
+
+h1 {
+    margin-bottom: 2px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+img.align {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+    background-size: contain;
+}
+
+div.layout-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.layout-element {
+    display: inline;
+    flex: 200px;
+    padding: 10px;
+}
+
+footer {
+    height: 95px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: UniSans-Heavy;
+    text-align: center;
+    line-height: 30px;
+}
+
+img.footer {
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+}
+
+div.divider {
+    background: radial-gradient(white, transparent);
+    width: 90%; 
+    height: 1px; 
+    overflow: hidden;
+    margin: 2px auto;
+}
+
+div.nothing {
+    text-align: center;
+    margin: auto;
+    padding: 100px 0;
+    color: lightslategray;
+}
+
+img.post {
+    width: 200px;
+    height: auto;
+}
+
+div.inner-post {
+    margin-top: 10px;
+    font-size: 13pt;
+    line-height: 22px;
+}
+
+div.post-container {
+    margin: 15px auto;
+    max-width: 700px;
+}
+
+li {
+	margin-top: 10px;
+    line-height: 25px;
+}
+
+ul {
+	margin-top: 0px;
+	margin-left: -12px;
+}
+
+div.post {
+    margin: 10px 0;
+}
+
+div.credits {
+    margin-bottom: 150px;
+    font-size: 18px;
+}
+
+a.link {
+	color: inherit;
+	text-decoration: none;
+}

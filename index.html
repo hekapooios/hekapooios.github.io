@@ -1,77 +1,95 @@
 <!DOCTYPE html>
 <html>
-	<head>
+    <head>
 		<link rel="icon" href="apple-touch-icon.png">
-		<link rel="stylesheet" type="text/css" href="new-common/general.css">
-		<link rel="stylesheet" type="text/css" href="new-common/main-page.css">
+		<link rel="stylesheet" type="text/css" href="common/general.css">
+        <link rel="stylesheet" type="text/css" href="common/tab.css">
 
 		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1"> 
 		<meta charset="UTF-8">
+        <meta name="theme-color" content="#090A0F">
 
 		<script type="text/javascript" src="js/3rd-party/mustache.min.js"></script>
-		<script type="text/javascript" src="js/index.js?v=11"></script>
+		<script type="text/javascript" src="js/index.js?v=12"></script>
 
 		<title>Apple ROM collection</title>
 	</head>
 
-	<body onload="main()" class="dark">
-		<div id="main" class="main" hidden>
-			<img src="resources/a4-board.png" class="align">
-			<div class="text">
-				<center>
-					<h1 id="name">Apple ROMs</h1>
+    <body onload="main()" class="dark">
+        <div id="main" class="main" hidden>
+            <div class="text">
+                <div class="layout-container">
+                    <div class="layout-element">
+                        <img class="align" style="width: 225px;" src="resources/m1_shiny.png">
+                    </div>
 
-					<div class="p">
-						Here's my collection of application and Secure Enclave processor's bootroms provided to everyone free of charge
-					</div>
-				</center>
+                    <div class="layout-element">
+                        <h1>Apple ROMs</h1>
+            
+                        <div class="desc">Last updated on 29.1.24</div>
 
-				<div id="tabs" class="tab-controller">
-					<div id="ap-tab" class="tab" inited=0>
-						AP
-					</div>
+                        <p>
+                            Here's my collection of application and Secure Enclave processor's bootroms provided to everyone free of charge
+                        </p>
+                    </div>
+                </div>
 
-					<div id="sep-tab" class="tab" inited=0>
-						SEP
-					</div>
-				</div>
+                <div id="tabs" class="tab-controller">
+                    <div id="ap-tab" class="tab" inited=0>
+                        iBoot
+                    </div>
 
-				<div class="tabs-content">
-					<div id="ap-tab-contents" hidden>
-					</div>
+                    <div id="sep-tab" class="tab" inited=0>
+                        SEP
+                    </div>
 
-					<div id="sep-tab-contents" hidden>
-					</div>
-				</div>
+                    <div id="rtkit-tab" class="tab" inited=0>
+                        RTKit
+                    </div>
 
-				<div class="p">
-					<h2>Credits</h2>
+                    <div id="samsung-tab" class="tab" inited=0>
+                        ROM BOOT
+                    </div>
+                </div>
 
-					<ul>
-						<li><b>@1nsane_dev</b> - for T8012 SecureROM and many others</li>
-						<li><b>@a1exdandy</b> - for S5L8747X SecureROM</li>
-						<li><b>@a1exdandy</b> and <b>@chiptunext</b> - for S7002 SecureROM</li>
-						<li><b>@p0sidonius</b> - for S5L8940X, S5L8942X and S5L8945X SecureROMs</li>
-					</ul>
-				</div>
-			</div>
+                <div id="ap-tab-contents" class="post-container" hidden>
+                </div>
 
-		</div>
+                <div id="sep-tab-contents" class="post-container" hidden>
+                </div>
 
-		<div id="error" class="main" hidden>
-			<div class="text">
-				<center>
-					<h1>Error occured!</h1>
-					Internal error occured, please contact @hekapoo___
-				</center>
-			</div>
-		</div>
+                <div id="rtkit-tab-contents" class="post-container" hidden>
+                </div>
 
+                <div id="samsung-tab-contents" class="post-container" hidden>
+                </div>
 
-		<footer class="dark" hidden>
-			Hekapoo, 2019-2020<br>
-			<a href="https://twitter.com/hekapoo___"><img class="footer" src="new-common/twitter.png"></a>
-			<a href="https://github.com/hekapooios"><img class="footer" src="new-common/github.png"></a>
-		</footer>
-	</body>
+                <div class="credits">
+                    <h3>Credits</h3>
+
+                    <ul>
+                        <li><b>@a1exdandy</b> - for S5L8747X SecureROM</li>
+                        <li><b>@a1exdandy</b> and <b>@chiptunext</b> - for S7002 SecureROM</li>
+                        <li><b>@p0sidonius</b> - for S5L8940X, S5L8942X and S5L8945X SecureROMs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <footer>
+                <div class="divider"></div>
+                Hekapoo, 2019-2024<br>
+                <a href="https://twitter.com/hekapoo___"><img class="footer" src="common/twitter.png"></a>
+                <a href="https://github.com/hekapooios"><img class="footer" src="common/github.png"></a>
+            </footer>
+        </div>
+
+        <div id="error" class="main" hidden>
+            <div class="text">
+                <center>
+                    <h1>Error occured!</h1>
+                    Internal error occured, please contact @hekapoo___
+                </center>
+            </div>
+        </div>
+    </body>
 </html>

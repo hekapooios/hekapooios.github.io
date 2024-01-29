@@ -1,15 +1,23 @@
+div.tab-controller {
+	display: flex;
+    flex-wrap: wrap;
+	margin: 35px 0;
+}
 
 div.tab {
-	float: left;
+    display: inline;
+    flex: 75px;
+    padding: 10px;
+
 	text-align: center;
 	vertical-align: middle;
 	line-height: 50px;
-	width: 50%;
+	padding: 0 15px;
     -webkit-box-sizing: border-box;  
     -moz-box-sizing: border-box;  
     box-sizing: border-box;
 
-    font-family: Merriweather;
+    font-family: UniSans-Heavy;
 }
 
 div.tab-active {
@@ -27,18 +35,4 @@ div.tab-active-dark {
 div.tabs-content {
 	clear: both;
 	padding-top: 15px;
-}
-
-div.post {
-	margin: 0 auto;
-	max-width: 600px;
-}
-
-img.post {
-	padding: 15px 0;
-}
-
-a.link {
-	color: inherit;
-	text-decoration: none;
 }

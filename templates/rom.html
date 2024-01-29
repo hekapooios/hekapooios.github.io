@@ -1,13 +1,20 @@
 {{#roms}}
-	<div class="post">
-		<a class="link" href="{{link}}">
-			<h3>{{name}}</h3>
-			<div class="desc">Posted on {{date}}</div>
-			<img class="align post" width="75%" height="auto" src="{{picture}}">
-			<b>Version</b>: {{version}}<br>
-			<b>Dumped from</b>: {{from}}<br><br>
-			{{desc}}
-		</a>
-		<div class="separator"></div>
-	</div>
+    <a class="link" href="{{link}}">
+        <div class="layout-container post">
+                <div class="layout-element">
+                    <img class="align post" src="{{picture}}">
+                </div>
+
+                <div class="layout-element" style="position: left;">
+                    <h4>{{name}}</h4>
+                    <div class="desc">Posted on {{date}}</div>
+                    <div class="inner-post">
+                        <b>Version</b>: {{version}}<br>
+                        <b>Dumped from</b>: {{from}}<br><br>
+                        {{{desc}}}
+                    </div>
+                </div>
+            <div class="divider" style="margin: 20px auto;"></div>
+        </div>
+    </a>
 {{/roms}}
