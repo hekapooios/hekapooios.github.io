@@ -4,7 +4,7 @@ function fillTab(tab, tabContents) {
 		return;
 	}
 
-	var template = "templates/rom.html";
+	var template = "templates/rom.html?v=1";
 
 	var xhr = new XMLHttpRequest();
 
