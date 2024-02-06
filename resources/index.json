@@ -825,6 +825,24 @@
                     "version" : "unknown",
                     "from" : "unknown",
                     "desc" : "Bootrom for iPod nano 5G. Vulnerable to wInd3x"
+                },
+                {
+                    "link" : "resources/Samsung/ROM BOOT, S5L8723",
+                    "name" : "ROM BOOT, S5L8723",
+                    "date" : "6.2.24",
+                    "picture" : "resources/S5L8723.jpg",
+                    "version" : "unknown",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for iPod nano 6G"
+                },
+                {
+                    "link" : "resources/Samsung/ROM BOOT, S5L8740",
+                    "name" : "ROM BOOT, S5L8740",
+                    "date" : "6.2.24",
+                    "picture" : "resources/S5L8740.jpg",
+                    "version" : "unknown",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for iPod nano 7G"
                 }
             ]
         }

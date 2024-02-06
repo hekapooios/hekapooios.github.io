@@ -64,7 +64,7 @@ function main() {
 
 	var xhr = new XMLHttpRequest();
 
-	xhr.open("GET", "resources/index.json?v=11", true);
+	xhr.open("GET", "resources/index.json?v=12", true);
 	xhr.send();
 	xhr.onreadystatechange = function() {
 
