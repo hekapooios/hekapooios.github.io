@@ -791,6 +791,15 @@
         "samsungs" : {
             "roms" : [
                 {
+                    "link" : "resources/Samsung/ROM BOOT, S5L8701 Rev.1",
+                    "name" : "ROM BOOT, S5L8701 Rev.1",
+                    "date" : "12.2.24",
+                    "picture" : "resources/S5L8701.jpg",
+                    "version" : "Rev.1",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for iPod nano 2G - the very first Apple device with Samsung SoC"
+                },
+                {
                     "link" : "resources/Samsung/ROM BOOT, S5L8900 Rev.2",
                     "name" : "ROM BOOT, S5L8900 Rev.2",
                     "date" : "26.10.19",
