@@ -358,7 +358,7 @@
                     "date" : "29.1.24",
                     "picture" : "resources/Apple_A12X.jpg",
                     "version" : "iBoot-4172.0.0.100.14",
-                    "from" : "unknown",
+                    "from" : "J273aAP",
                     "desc" : "Bootrom for iPad Pro 2018/2020"
                 },
                 {
@@ -651,7 +651,7 @@
                    "date" : "29.1.24",
                    "picture" : "resources/Apple_A12X.jpg",
                    "version" : "private_build...(root@rebels.apple.com)...2017/09/13...21:46:04...",
-                   "from" : "unknown",
+                   "from" : "J318AP EVT",
                    "desc" : "SEPROM from A12X of revision A0 (first one)"
                 },
                 {
