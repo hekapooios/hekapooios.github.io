@@ -487,6 +487,15 @@ var map =
                     "version" : "iBoot-7195.0.0.200.29",
                     "from" : "D73AP Proto2",
                     "desc" : "Bootrom for iPhone 14 Pro [Max] and iPhone 15 [Plus]"
+                },
+                {
+                    "link" : "resources/APROM/SecureROM for t8120si, iBoot-7195.0.0.300.25",
+                    "name" : "SecureROM for t8120si",
+                    "date" : "18.3.24",
+                    "picture" : "resources/Apple_A16.jpg",
+                    "version" : "iBoot-7195.0.0.300.25",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for iPhone 14 Pro [Max] and iPhone 15 [Plus]"
                 }
             ]
         },
@@ -753,6 +762,15 @@ var map =
                     "version" : "AppleSEPROM-605.0.0.200.9",
                     "from" : "D73AP Proto2",
                     "desc" : "SEPROM from A16 of revision A0 (first one)"
+                },
+                {
+                    "link" : "resources/SEPROM/AppleSEPROM-605.0.0.200.12",
+                    "name" : "Crete B1 SEPROM",
+                    "date" : "18.3.24",
+                    "picture" : "resources/Apple_A16.jpg",
+                    "version" : "AppleSEPROM-605.0.0.200.12",
+                    "from" : "unknown",
+                    "desc" : "SEPROM from A16 of revision B1 (latest one)"
                 }
             ]
         },
