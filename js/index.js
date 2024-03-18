@@ -1,98 +1,62 @@
 function fillTab(tab, tabContents) {
-	if (!parsed) {
-		tabContents.innerHTML = "Error loading tab";
-		return;
-	}
+    if (tab.id == "ap-tab") {
+        tabContents.innerHTML = Mustache.render(template, map["aps"]);
+    } else if (tab.id == "sep-tab") {
+        tabContents.innerHTML = Mustache.render(template, map["seps"]);
+    } else if (tab.id == "rtkit-tab") {
+        tabContents.innerHTML = Mustache.render(template, map["rtkits"]);
+    } else if (tab.id == "samsung-tab") {
+        tabContents.innerHTML = Mustache.render(template, map["samsungs"]);
+    }
 
-	var template = "templates/rom.html?v=1";
-
-	var xhr = new XMLHttpRequest();
-
-	xhr.open("GET", template, true);
-	xhr.send();
-	xhr.onreadystatechange = function() {
-
-		if (xhr.readyState != 4) return;
-
-		if (xhr.status != 200) {
-		    tabContents.innerHTML = "Error loading template";
-		} else {
-			var templateText = xhr.responseText;
-
-			if (tab.id == "ap-tab")
-				tabContents.innerHTML = Mustache.render(templateText, parsed["aps"]);
-			else if (tab.id == "sep-tab")
-				tabContents.innerHTML = Mustache.render(templateText, parsed["seps"]);
-			else if (tab.id == "rtkit-tab")
-				tabContents.innerHTML = Mustache.render(templateText, parsed["rtkits"]);
-			else if (tab.id == "samsung-tab")
-				tabContents.innerHTML = Mustache.render(templateText, parsed["samsungs"]);
-
-			tab.inited = 1;
-		}
-	}
+    tab.inited = 1;
 }
 
 function tabHandler(event) {
-	var requestedTab = event.srcElement;
-	var activeTab = document.getElementById("tabs").getElementsByClassName("tab-active-dark")[0];
+    var requestedTab = event.srcElement;
+    var activeTab = document.getElementById("tabs").getElementsByClassName("tab-active-dark")[0];
 
-	if (requestedTab == activeTab) 
-		return;
+    if (requestedTab == activeTab) 
+        return;
 
-	if (activeTab) {
-		activeTab.classList.remove("tab-active-dark");
-		document.getElementById(activeTab.id + "-contents").hidden = true;
-	}
+    if (activeTab) {
+        activeTab.classList.remove("tab-active-dark");
+        document.getElementById(activeTab.id + "-contents").hidden = true;
+    }
 
-	requestedTab.classList.add("tab-active-dark");
+    requestedTab.classList.add("tab-active-dark");
 
-	var requestedTabContents = document.getElementById(requestedTab.id + "-contents");
-	requestedTabContents.hidden = false;
+    var requestedTabContents = document.getElementById(requestedTab.id + "-contents");
+    requestedTabContents.hidden = false;
 
-	if (!requestedTab.inited) {
-		fillTab(requestedTab, requestedTabContents);
-	}
+    if (!requestedTab.inited) {
+        fillTab(requestedTab, requestedTabContents);
+    }
 }
 
-var parsed = undefined;
+var template = undefined;
 
 function main() {
-	var mainElement = document.getElementById("main");
-	var errorElement = document.getElementById("error");
-	var footerElement = document.getElementsByTagName("footer")[0];
+    var templatePath = "templates/rom.html?v=2";
+    var xhr = new XMLHttpRequest();
 
-	var xhr = new XMLHttpRequest();
+    xhr.open("GET", templatePath, true);
+    xhr.send();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState != 4) return;
 
-	xhr.open("GET", "resources/index.json?v=13", true);
-	xhr.send();
-	xhr.onreadystatechange = function() {
-
-		if (xhr.readyState != 4) return;
-
-		if (xhr.status != 200) {
-		    errorElement.hidden = false;
-		} else {
-			try {
-				parsed = JSON.parse(xhr.responseText);
-			} catch (error) {
-				errorElement.hidden = false;
-				return;
-			}
-
-			var tabs = document.getElementById("tabs").getElementsByClassName("tab");
+        if (xhr.status != 200) {
+            alert("Wow, this is unexpected, but we really couldn't load the template!");
+        } else {
+            template = xhr.responseText;
+            
+            var tabs = document.getElementById("tabs").getElementsByClassName("tab");
 
 			for (var i = 0; i < tabs.length; i++) {
 				tabs[i].onclick = tabHandler;
 			}
 
-			tabHandler({srcElement : document.getElementById("ap-tab")});
-
-		    mainElement.hidden = false;
-		    footerElement.hidden = false;
-
-		}
-	};
-
-	return false;
+            tabHandler({srcElement : document.getElementById("ap-tab")});
+        }
+    }
 }

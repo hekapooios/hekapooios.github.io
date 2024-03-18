@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<link rel="icon" href="apple-touch-icon.png">
-		<link rel="stylesheet" type="text/css" href="common/general.css">
-        <link rel="stylesheet" type="text/css" href="common/tab.css">
+        <link rel="icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" type="text/css" href="common/general.css?v=3">
+        <link rel="stylesheet" type="text/css" href="common/tab.css?v=1">
 
-		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1"> 
-		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1"> 
+        <meta charset="UTF-8">
         <meta name="theme-color" content="#090A0F">
 
-		<script type="text/javascript" src="js/3rd-party/mustache.min.js"></script>
-		<script type="text/javascript" src="js/index.js?v=14"></script>
+        <script type="text/javascript" src="js/3rd-party/mustache.min.js"></script>
+        <script type="text/javascript" src="resources/map.js"></script>
+        <script type="text/javascript" src="js/index.js?v=16"></script>
 
-		<title>Apple ROM collection</title>
-	</head>
+        <title>Apple ROM collection</title>
+    </head>
 
-    <body onload="main()" class="dark">
-        <div id="main" class="main" hidden>
+    <body onload="main()">
+        <div id="main" class="main">
             <div class="text">
                 <div class="layout-container">
                     <div class="layout-element">
@@ -29,7 +30,7 @@
                         <div class="desc">Last updated on 12.2.24</div>
 
                         <p>
-                            Here's my collection of application and Secure Enclave processor's bootroms provided to everyone free of charge
+                            Here's my collection of Apple SoC's bootroms provided to everyone free of charge
                         </p>
                     </div>
                 </div>
@@ -66,7 +67,6 @@
 
                 <div class="credits">
                     <h3>Credits</h3>
-
                     <ul>
                         <li><b>@a1exdandy</b> - for S5L8747X SecureROM</li>
                         <li><b>@a1exdandy</b> and <b>@chiptunext</b> - for S7002 SecureROM</li>
@@ -76,22 +76,12 @@
                     </ul>
                 </div>
             </div>
-
             <footer>
                 <div class="divider"></div>
                 Hekapoo, 2019-2024<br>
                 <a href="https://twitter.com/hekapoo___"><img class="footer" src="common/twitter.png"></a>
                 <a href="https://github.com/hekapooios"><img class="footer" src="common/github.png"></a>
             </footer>
-        </div>
-
-        <div id="error" class="main" hidden>
-            <div class="text">
-                <center>
-                    <h1>Error occured!</h1>
-                    Internal error occured, please contact @hekapoo___
-                </center>
-            </div>
         </div>
     </body>
 </html>

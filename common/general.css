@@ -21,7 +21,7 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background: linear-gradient(#090A0F, #1B2735);
+    background: radial-gradient(ellipse at center, #1B2735, #090A0F);;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
@@ -115,6 +115,7 @@ div.nothing {
 }
 
 img.post {
+    filter: drop-shadow(0px 0px 5px black);
     width: 200px;
     height: auto;
 }

@@ -1,3 +1,4 @@
+var map =
 {
     "aps" : {
             "roms" : [
@@ -374,7 +375,7 @@
                     "link" : "resources/APROM/SecureROM for t8030si, iBoot-4479.0.0.100.4",
                     "name" : "SecureROM for t8030si",
                     "date" : "25.11.19",
-                    "picture" : "resources/a13_bionic_die.jpg",
+                    "picture" : "resources/Apple_A13_Bionic.jpg",
                     "version" : "iBoot-4479.0.0.100.4",
                     "from" : "D421AP DVT",
                     "desc" : "Bootrom for iPhone 11, 11 Pro [Max] and SE (2nd generation)"
@@ -658,7 +659,7 @@
                     "link" : "resources/SEPROM/AppleSEPROM-Cebu-A0",
                     "name" : "Cebu A0 SEPROM",
                     "date" : "29.1.24",
-                    "picture" : "resources/a13_bionic_die.jpg",
+                    "picture" : "resources/Apple_A13_Bionic.jpg",
                     "version" : "private_build...(root@lentil.sd.apple.com)...2018/03/13...14:40:23...",
                     "from" : "unknown",
                     "desc" : "SEPROM from A13 of revision A0 (first one)"
@@ -667,7 +668,7 @@
                    "link" : "resources/SEPROM/AppleSEPROM-Cebu-B1",
                    "name" : "Cebu B1 SEPROM",
                    "date" : "29.1.24",
-                   "picture" : "resources/a13_bionic_die.jpg",
+                   "picture" : "resources/Apple_A13_Bionic.jpg",
                    "version" : "private_build...(root@lentil.sd.apple.com)...2018/09/22...12:14:38...",
                    "from" : "unknown",
                    "desc" : "SEPROM from A13 of revision B1 (latest one)"

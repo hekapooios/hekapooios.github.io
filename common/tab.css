@@ -17,6 +17,8 @@ div.tab {
     -moz-box-sizing: border-box;  
     box-sizing: border-box;
 
+	white-space: nowrap;
+
     font-family: UniSans-Heavy;
 }
 
