@@ -491,11 +491,20 @@ var map =
                 {
                     "link" : "resources/APROM/SecureROM for t8120si, iBoot-7195.0.0.300.25",
                     "name" : "SecureROM for t8120si",
-                    "date" : "18.3.24",
+                    "date" : "1.4.24",
                     "picture" : "resources/Apple_A16.jpg",
                     "version" : "iBoot-7195.0.0.300.25",
                     "from" : "unknown",
                     "desc" : "Bootrom for iPhone 14 Pro [Max] and iPhone 15 [Plus]"
+                },
+                {
+                    "link" : "resources/APROM/SecureROM for t8130si, iBoot-8104.0.0.200.24",
+                    "name" : "SecureROM for t8130si (non-production)",
+                    "date" : "1.4.24",
+                    "picture" : "resources/Apple_A17.jpg",
+                    "version" : "iBoot-8104.0.0.200.24",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for iPhone 15 Pro [Max]"
                 }
             ]
         },
@@ -766,7 +775,7 @@ var map =
                 {
                     "link" : "resources/SEPROM/AppleSEPROM-605.0.0.200.12",
                     "name" : "Crete B1 SEPROM",
-                    "date" : "18.3.24",
+                    "date" : "1.4.24",
                     "picture" : "resources/Apple_A16.jpg",
                     "version" : "AppleSEPROM-605.0.0.200.12",
                     "from" : "unknown",

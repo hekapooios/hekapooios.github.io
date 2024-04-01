@@ -37,7 +37,7 @@ function tabHandler(event) {
 var template = undefined;
 
 function main() {
-    var templatePath = "templates/rom.html?v=2";
+    var templatePath = "templates/rom.html?v=3";
     var xhr = new XMLHttpRequest();
 
     xhr.open("GET", templatePath, true);
