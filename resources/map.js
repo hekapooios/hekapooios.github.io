@@ -503,7 +503,7 @@ var map =
                     "date" : "1.4.24",
                     "picture" : "resources/Apple_A17.jpg",
                     "version" : "iBoot-8104.0.0.200.24",
-                    "from" : "unknown",
+                    "from" : "D84AP Proto2",
                     "desc" : "Bootrom for iPhone 15 Pro [Max]"
                 }
             ]
@@ -780,6 +780,15 @@ var map =
                     "version" : "AppleSEPROM-605.0.0.200.12",
                     "from" : "unknown",
                     "desc" : "SEPROM from A16 of revision B1 (latest one)"
+                },
+                {
+                    "link" : "resources/SEPROM/AppleSEPROM-834.0.0.200.11",
+                    "name" : "Coll A0 SEPROM",
+                    "date" : "15.6.24",
+                    "picture" : "resources/Apple_A17.jpg",
+                    "version" : "AppleSEPROM-834.0.0.200.11",
+                    "from" : "D84AP Proto2",
+                    "desc" : "SEPROM from A17 of revision A0 (first one). Be careful with this one, as it could be patched"
                 }
             ]
         },
@@ -802,7 +811,7 @@ var map =
                     "picture" : "resources/Apple_U1.jpg",
                     "version" : "RTKitROM-91.0.0.2.9",
                     "from" : "unknown",
-                    "desc" : "Bootrom for U1 ultra-wideband chip used in iPhone 11 and newer, AirTag and AirPods Pro 2 case"
+                    "desc" : "Bootrom for U1 ultra-wideband chip used in iPhone 11 and newer, AirTag, various Apple Watch models and AirPods Pro 2 case"
                 },
                 {
                     "link" : "resources/RTKit/RTKitROM for t2006si, RTKitROM-91.0.0.3.2",
@@ -811,7 +820,16 @@ var map =
                     "picture" : "resources/Apple_U1.jpg",
                     "version" : "RTKitROM-91.0.0.3.2",
                     "from" : "unknown",
-                    "desc" : "Bootrom for U1 ultra-wideband chip used in iPhone 11 and newer, AirTag and AirPods Pro 2 case"
+                    "desc" : "Bootrom for U1 ultra-wideband chip used in iPhone 11 and newer, AirTag, various Apple Watch models and AirPods Pro 2 case"
+                },
+                {
+                    "link" : "resources/RTKit/RTKitROM for t2024si, RTKitROM-298.0.0.200.11",
+                    "name" : "RTKitROM for t2024si (?)",
+                    "date" : "15.6.24",
+                    "picture" : null,
+                    "version" : "RTKitROM-298.0.0.200.11",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for U2 ultra-wideband chip used in iPhone 15 Pro [Max], Apple Watch Series 9 and Ultra 2"
                 }
             ]
         },
@@ -843,7 +861,16 @@ var map =
                     "picture" : "resources/S5L8702.jpg",
                     "version" : "Rev.0",
                     "from" : "unknown",
-                    "desc" : "Bootrom for iPod nano 3G and Classic 6G. Vulnerable to wInd3x"
+                    "desc" : "Bootrom for iPod nano 3G and Classic 6G. Vulnerable to Pwnage 2 and wInd3x"
+                },
+                {
+                    "link" : "resources/Samsung/ROM BOOT, S5L8442 Rev.0",
+                    "name" : "ROM BOOT, S5L8442 Rev.0",
+                    "date" : "15.6.24",
+                    "picture" : "resources/S5L8442.jpg",
+                    "version" : "Rev.0",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for iPod shuffle 3G. Vulnerable to Pwnage 2"
                 },
                 {
                     "link" : "resources/Samsung/ROM BOOT, S5L8720",
@@ -852,7 +879,7 @@ var map =
                     "picture" : "resources/S5L8720.jpg",
                     "version" : "unknown",
                     "from" : "unknown",
-                    "desc" : "Bootrom for iPod nano 4G. Vulnerable to wInd3x"
+                    "desc" : "Bootrom for iPod nano 4G. Vulnerable to Pwnage 2 and wInd3x"
                 },
                 {
                     "link" : "resources/Samsung/ROM BOOT, S5L8730",
