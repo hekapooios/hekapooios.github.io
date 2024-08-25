@@ -408,6 +408,15 @@ var map =
                     "desc" : "Bootrom for iPhone 12 [mini], 12 Pro [Max] and iPad Air 4"
                 },
                 {
+                    "link" : "resources/APROM/SecureROM for t8301si, iBoot-5281.0.0.200.31",
+                    "name" : "SecureROM for t8301si (non-production)",
+                    "date" : "25.8.24",
+                    "picture" : "resources/Apple_S6_module.png",
+                    "version" : "iBoot-5281.0.0.200.31",
+                    "from" : "N157sAP ANT (?!)",
+                    "desc" : "Bootrom for Apple Watch Series 6/7/8/Ultra"
+                },
+                {
                     "link" : "resources/APROM/SecureROM for t8301si, iBoot-5281.0.0.300.17",
                     "name" : "SecureROM for t8301si",
                     "date" : "29.1.24",
@@ -501,7 +510,7 @@ var map =
                     "link" : "resources/APROM/SecureROM for t8130si, iBoot-8104.0.0.200.24",
                     "name" : "SecureROM for t8130si (non-production)",
                     "date" : "1.4.24",
-                    "picture" : "resources/Apple_A17.jpg",
+                    "picture" : "resources/Apple_A17.png",
                     "version" : "iBoot-8104.0.0.200.24",
                     "from" : "D84AP Proto2",
                     "desc" : "Bootrom for iPhone 15 Pro [Max]"
@@ -728,13 +737,22 @@ var map =
                     "desc" : "SEPROM from M1 of revision B1 (latest one)"
                 },
                 {
+                    "link" : "resources/SEPROM/AppleSEPROM-Turks-A0",
+                    "name" : "Turks A0 SEPROM",
+                    "date" : "25.8.24",
+                    "picture" : "resources/Apple_S6_module.png",
+                    "version" : "private_build...(root@tacos.apple.com)...2019/03/21...14:43:29...",
+                    "from" : "N157sAP ANT (?!)",
+                    "desc" : "SEPROM from S6/S7/S8 of revision A0 (first one)"
+                },
+                {
                     "link" : "resources/SEPROM/AppleSEPROM-Turks-B0",
                     "name" : "Turks B0 SEPROM",
                     "date" : "29.1.24",
                     "picture" : "resources/Apple_S7_module.png",
                     "version" : "private_build...(root@tacos.apple.com)...2019/09/13...14:13:45...",
                     "from" : "N188bAP EVT",
-                    "desc" : "SEPROM from S6/S7 of revision B0 (latest one)"
+                    "desc" : "SEPROM from S6/S7/S8 of revision B0 (latest one)"
                 },
                 {
                     "link" : "resources/SEPROM/AppleSEPROM-520.400.46.200.4",
@@ -752,7 +770,16 @@ var map =
                     "picture" : "resources/Apple_A15.jpg",
                     "version" : "AppleSEPROM-520.400.46.200.18",
                     "from" : "unknown",
-                    "desc" : "SEPROM from A15 of revision B0 (middle one, but allegedly matches latest one)"
+                    "desc" : "SEPROM from A15 of revision B0 (middle one, <s>but allegedly matches latest one</s> it doesn't)"
+                },
+                {
+                    "link" : "resources/SEPROM/AppleSEPROM-520.400.46.200.19",
+                    "name" : "Ellis B1 SEPROM",
+                    "date" : "25.8.24",
+                    "picture" : "resources/Apple_A15.jpg",
+                    "version" : "AppleSEPROM-520.400.46.200.19",
+                    "from" : "unknown",
+                    "desc" : "SEPROM from A15 of revision B1 (latest one)"
                 },
                 {
                     "link" : "resources/SEPROM/AppleSEPROM-544.0.0.200.1",
@@ -785,7 +812,7 @@ var map =
                     "link" : "resources/SEPROM/AppleSEPROM-834.0.0.200.11",
                     "name" : "Coll A0 SEPROM",
                     "date" : "15.6.24",
-                    "picture" : "resources/Apple_A17.jpg",
+                    "picture" : "resources/Apple_A17.png",
                     "version" : "AppleSEPROM-834.0.0.200.11",
                     "from" : "D84AP Proto2",
                     "desc" : "SEPROM from A17 of revision A0 (first one). Be careful with this one, as it could be patched"
@@ -826,7 +853,7 @@ var map =
                     "link" : "resources/RTKit/RTKitROM for t2024si, RTKitROM-298.0.0.200.11",
                     "name" : "RTKitROM for t2024si (?)",
                     "date" : "15.6.24",
-                    "picture" : null,
+                    "picture" : "resources/Apple_U2.png",
                     "version" : "RTKitROM-298.0.0.200.11",
                     "from" : "unknown",
                     "desc" : "Bootrom for U2 ultra-wideband chip used in iPhone 15 Pro [Max], Apple Watch Series 9 and Ultra 2"
