@@ -2,16 +2,17 @@
 <html>
     <head>
         <link rel="icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" type="text/css" href="common/general.css?v=3">
-        <link rel="stylesheet" type="text/css" href="common/tab.css?v=1">
+        <link rel="stylesheet" type="text/css" href="common/general.css?v=5">
 
         <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1"> 
         <meta charset="UTF-8">
         <meta name="theme-color" content="#090A0F">
 
         <script type="text/javascript" src="js/3rd-party/mustache.min.js"></script>
-        <script type="text/javascript" src="resources/map.js?v=4"></script>
-        <script type="text/javascript" src="js/index.js?v=16"></script>
+        <script type="text/javascript" src="js/3rd-party/fuse.basic.min.js"></script>
+
+        <script type="text/javascript" src="map/__map.js?v=4"></script>
+        <script type="text/javascript" src="js/index.js?v=18"></script>
 
         <title>Apple ROM collection</title>
     </head>
@@ -32,38 +33,46 @@
                         <p>
                             Here's my collection of Apple SoC's bootroms provided to everyone free of charge
                         </p>
+
+                        <p>
+                            There are <span id="count">???</span> ROMs total currently
+                        </p>
                     </div>
                 </div>
 
-                <div id="tabs" class="tab-controller">
-                    <div id="ap-tab" class="tab" inited=0>
-                        iBoot
+                <div class="layout-container">
+                    <div id="sort-container" class="layout-element">
+                        <h4>Sort</h4>
+
+                        <div id="sort-controls" class="segment-controller">
+                            <div id="date" class="segment-control">Date added</div>
+                            <div id="version" class="segment-control">Version</div>
+                        </div>
                     </div>
 
-                    <div id="sep-tab" class="tab" inited=0>
-                        SEP
+                    <div id="filter-container" class="layout-element">
+                        <h4>Filter</h4>
+
+                        <div id="filter-controls" class="segment-controller">
+                            <div id="aps" class="segment-control">AP</div>
+                            <div id="seps" class="segment-control">SEP</div>
+                            <div id="rtkits" class="segment-control">RTKit</div>
+                            <div id="samsungs" class="segment-control">ROM BOOT</div>
+                        </div>
                     </div>
-
-                    <div id="rtkit-tab" class="tab" inited=0>
-                        RTKit
-                    </div>
-
-                    <div id="samsung-tab" class="tab" inited=0>
-                        ROM BOOT
+                    
+                    <div class="layout-element">
+                        <h4>Search</h4>
+                        <input id="search-controls" class="search" placeholder="e.g. SecureROM for S5L8942">
                     </div>
                 </div>
 
-                <div id="ap-tab-contents" class="post-container" hidden>
+                <div class="divider"></div>
+
+                <div id="contents" class="post-container">
                 </div>
 
-                <div id="sep-tab-contents" class="post-container" hidden>
-                </div>
-
-                <div id="rtkit-tab-contents" class="post-container" hidden>
-                </div>
-
-                <div id="samsung-tab-contents" class="post-container" hidden>
-                </div>
+                <div class="divider"></div>
 
                 <div class="credits">
                     <h3>Credits</h3>
@@ -76,6 +85,7 @@
                     </ul>
                 </div>
             </div>
+
             <footer>
                 <div class="divider"></div>
                 Hekapoo, 2019-2024<br>

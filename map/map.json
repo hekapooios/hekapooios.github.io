@@ -1,4 +1,3 @@
-var map =
 {
     "aps" : {
             "roms" : [
@@ -148,7 +147,7 @@ var map =
                 },
                 {
                     "link" : "resources/APROM/SecureROM for s5l8960xsi, iBoot-1585.4",
-                    "name" : "SecureROM for s5l8960xsi",
+                    "name" : "SecureROM for s5l8960xsi (non-production)",
                     "date" : "10.4.20",
                     "picture" : "resources/Apple_A7_chip.jpg",
                     "version" : "iBoot-1585.4",
@@ -166,7 +165,7 @@ var map =
                 },
                 {
                     "link" : "resources/APROM/SecureROM for t7000si, iBoot-1873.0.0.1.19",
-                    "name" : "SecureROM for t7000si (first revision)",
+                    "name" : "SecureROM for t7000si (non-production)",
                     "date" : "26.10.19",
                     "picture" : "resources/Apple_A8_system-on-a-chip.jpg",
                     "version" : "iBoot-1873.0.0.1.19",

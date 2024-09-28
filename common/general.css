@@ -29,14 +29,14 @@ body {
 
 div.main {
     padding-top: 10px;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
 }
 
 div.text {
     margin: 8px 15px 95px 15px;
     font-family: SourceSansPro-Regular;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 div.desc {
@@ -127,8 +127,8 @@ div.inner-post {
 }
 
 div.post-container {
-    margin: 15px auto;
-    max-width: 700px;
+    margin: 30px auto;
+    max-width: 850px;
 }
 
 li {
@@ -153,4 +153,42 @@ div.credits {
 a.link {
 	color: inherit;
 	text-decoration: none;
+}
+
+div.segment-control {
+    display: inline-block;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    font-family: SourceSansPro-Light;
+    font-size: 15px;
+}
+
+div.segment-control-active {
+    background-color: white;
+    color: #090A0F;
+}
+
+input.search {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 5px 5px 0px;
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+div.notfound {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 75px 0;
+}
+
+div.disabled {
+    pointer-events: none;
+    opacity: 0.4;
 }
