@@ -180,7 +180,7 @@ var map =
             },
             {
                 "link": "resources/APROM/SecureROM for s5l8960xsi, iBoot-1585.4",
-                "name": "SecureROM for s5l8960xsi",
+                "name": "SecureROM for s5l8960xsi (non-production)",
                 "date": "10.4.20",
                 "picture": "resources/Apple_A7_chip.jpg",
                 "version": "iBoot-1585.4",
@@ -202,7 +202,7 @@ var map =
             },
             {
                 "link": "resources/APROM/SecureROM for t7000si, iBoot-1873.0.0.1.19",
-                "name": "SecureROM for t7000si (first revision)",
+                "name": "SecureROM for t7000si (non-production)",
                 "date": "26.10.19",
                 "picture": "resources/Apple_A8_system-on-a-chip.jpg",
                 "version": "iBoot-1873.0.0.1.19",
@@ -628,6 +628,17 @@ var map =
                 "desc": "Bootrom for iPhone 15 Pro [Max]",
                 "__date_sort": 1711922400,
                 "__version_sort": 56
+            },
+            {
+                "link": "resources/APROM/SecureROM for t8130si, iBoot-8104.0.0.201.4",
+                "name": "SecureROM for t8130si",
+                "date": "4.11.24",
+                "picture": "resources/Apple_A17.png",
+                "version": "iBoot-8104.0.0.201.4",
+                "from": "unknown",
+                "desc": "Bootrom for iPhone 15 Pro [Max]",
+                "__date_sort": 1730674800,
+                "__version_sort": 57
             }
         ]
     },
@@ -788,6 +799,17 @@ var map =
                 "__version_sort": 13
             },
             {
+                "link": "resources/SEPROM/AppleSEPROM-340.0.0.1.4",
+                "name": "Gibraltar B0 SEPROM",
+                "date": "4.11.24",
+                "picture": "resources/Apple_T2_APL1027.jpg",
+                "version": "AppleSEPROM-340.0.0.1.4",
+                "from": "unknown",
+                "desc": "SEPROM from T2 of revision B0 (latest one)",
+                "__date_sort": 1730674800,
+                "__version_sort": 14
+            },
+            {
                 "link": "resources/SEPROM/AppleSEPROM-Cyprus-A0",
                 "name": "Cyprus A0 SEPROM",
                 "date": "29.1.24",
@@ -796,7 +818,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A12 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 14
+                "__version_sort": 15
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Cyprus-B1",
@@ -807,7 +829,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A12 of revision B1 (latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 15
+                "__version_sort": 16
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-M9-B0-B1",
@@ -818,7 +840,7 @@ var map =
                 "from": "N146sAP",
                 "desc": "SEPROM from S4/S5 of revision B0/B1 (latest one)",
                 "__date_sort": 1595541600,
-                "__version_sort": 16
+                "__version_sort": 17
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Aruba-A0",
@@ -829,7 +851,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A12X of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 17
+                "__version_sort": 18
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Cebu-A0",
@@ -840,7 +862,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A13 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 18
+                "__version_sort": 19
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Cebu-B1",
@@ -851,7 +873,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A13 of revision B1 (latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 19
+                "__version_sort": 20
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Sicily-A0",
@@ -862,7 +884,7 @@ var map =
                 "from": "D53gAP Proto2",
                 "desc": "SEPROM from A14 of revision A0 (first one)",
                 "__date_sort": 1622584800,
-                "__version_sort": 20
+                "__version_sort": 21
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Sicily-B0_B1",
@@ -873,7 +895,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A14 of revision B0/B1 (middle/latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 21
+                "__version_sort": 22
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Tonga-A0",
@@ -884,7 +906,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from M1 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 22
+                "__version_sort": 23
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-520.0.102.200.16",
@@ -895,7 +917,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from M1 of revision B1 (latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 23
+                "__version_sort": 24
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Turks-A0",
@@ -906,7 +928,7 @@ var map =
                 "from": "N157sAP ANT (?!)",
                 "desc": "SEPROM from S6/S7/S8 of revision A0 (first one)",
                 "__date_sort": 1724536800,
-                "__version_sort": 24
+                "__version_sort": 25
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Turks-B0",
@@ -917,7 +939,7 @@ var map =
                 "from": "N188bAP EVT",
                 "desc": "SEPROM from S6/S7/S8 of revision B0 (latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 25
+                "__version_sort": 26
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-520.400.46.200.4",
@@ -928,7 +950,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A15 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 26
+                "__version_sort": 27
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-520.400.46.200.18",
@@ -939,7 +961,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A15 of revision B0 (middle one, <s>but allegedly matches latest one</s> it doesn't)",
                 "__date_sort": 1706482800,
-                "__version_sort": 27
+                "__version_sort": 28
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-520.400.46.200.19",
@@ -950,7 +972,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A15 of revision B1 (latest one)",
                 "__date_sort": 1724536800,
-                "__version_sort": 28
+                "__version_sort": 29
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-544.0.0.200.1",
@@ -961,7 +983,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from M2 of revision B0 (middle one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 29
+                "__version_sort": 30
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-605.0.0.200.9",
@@ -972,7 +994,7 @@ var map =
                 "from": "D73AP Proto2",
                 "desc": "SEPROM from A16 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 30
+                "__version_sort": 31
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-605.0.0.200.12",
@@ -983,7 +1005,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A16 of revision B1 (latest one)",
                 "__date_sort": 1711922400,
-                "__version_sort": 31
+                "__version_sort": 32
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-834.0.0.200.11",
@@ -994,7 +1016,7 @@ var map =
                 "from": "D84AP Proto2",
                 "desc": "SEPROM from A17 of revision A0 (first one). Be careful with this one, as it could be patched",
                 "__date_sort": 1718402400,
-                "__version_sort": 32
+                "__version_sort": 33
             }
         ]
     },
