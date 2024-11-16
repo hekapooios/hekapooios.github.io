@@ -4,7 +4,7 @@ import sys
 import json
 from datetime import datetime
 
-OUT_FILE = "__map.js"
+OUT_FILE = "map__.js"
 JS_TEMPLATE = "var map = \n%s"
 TAG_COUNT_MAX = 5
 
