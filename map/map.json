@@ -517,7 +517,7 @@
                 {
                     "link" : "resources/APROM/SecureROM for t8130si, iBoot-8104.0.0.201.4",
                     "name" : "SecureROM for t8130si",
-                    "date" : "4.11.24",
+                    "date" : "16.11.24",
                     "picture" : "resources/Apple_A17.png",
                     "version" : "iBoot-8104.0.0.201.4",
                     "from" : "unknown",
@@ -657,7 +657,7 @@
                 {
                     "link" : "resources/SEPROM/AppleSEPROM-340.0.0.1.4",
                     "name" : "Gibraltar B0 SEPROM",
-                    "date" : "4.11.24",
+                    "date" : "16.11.24",
                     "picture" : "resources/Apple_T2_APL1027.jpg",
                     "version" : "AppleSEPROM-340.0.0.1.4",
                     "from" : "unknown",

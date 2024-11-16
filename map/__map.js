@@ -632,12 +632,12 @@ var map =
             {
                 "link": "resources/APROM/SecureROM for t8130si, iBoot-8104.0.0.201.4",
                 "name": "SecureROM for t8130si",
-                "date": "4.11.24",
+                "date": "16.11.24",
                 "picture": "resources/Apple_A17.png",
                 "version": "iBoot-8104.0.0.201.4",
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 15 Pro [Max]",
-                "__date_sort": 1730674800,
+                "__date_sort": 1731711600,
                 "__version_sort": 57
             }
         ]
@@ -801,12 +801,12 @@ var map =
             {
                 "link": "resources/SEPROM/AppleSEPROM-340.0.0.1.4",
                 "name": "Gibraltar B0 SEPROM",
-                "date": "4.11.24",
+                "date": "16.11.24",
                 "picture": "resources/Apple_T2_APL1027.jpg",
                 "version": "AppleSEPROM-340.0.0.1.4",
                 "from": "unknown",
                 "desc": "SEPROM from T2 of revision B0 (latest one)",
-                "__date_sort": 1730674800,
+                "__date_sort": 1731711600,
                 "__version_sort": 14
             },
             {
