@@ -833,6 +833,15 @@
                     "version" : "AppleSEPROM-834.0.0.200.11",
                     "from" : "D84AP Proto2",
                     "desc" : "SEPROM from A17 of revision A0 (first one). Be careful with this one, as it could be patched"
+                },
+                {
+                    "link" : "resources/SEPROM/AppleSEPROM-834.0.0.300.5",
+                    "name" : "Coll B0 SEPROM",
+                    "date" : "big_date",
+                    "picture": "resources/images/Apple_A17.png",
+                    "version" : "AppleSEPROM-834.0.0.300.5",
+                    "from" : "D83AP unknown revision",
+                    "desc" : "SEPROM from A17 of revision B0 (middle one). Be careful with this one, as it could be patched"
                 }
             ]
         },
@@ -942,6 +951,15 @@
                     "version" : "unknown",
                     "from" : "unknown",
                     "desc" : "Bootrom for iPod nano 6G"
+                },
+                {
+                    "link" : "resources/Samsung/ROM BOOT, S5L8443",
+                    "name" : "ROM BOOT, S5L8443",
+                    "date" : "big_date",
+                    "picture": "resources/images/S5L8443.jpg",
+                    "version" : "unknown",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for iPod shuffle 4G"
                 },
                 {
                     "link" : "resources/Samsung/ROM BOOT, S5L8740",

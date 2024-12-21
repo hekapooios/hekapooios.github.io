@@ -1017,6 +1017,17 @@ var map =
                 "desc": "SEPROM from A17 of revision A0 (first one). Be careful with this one, as it could be patched",
                 "__date_sort": 1718402400,
                 "__version_sort": 33
+            },
+            {
+                "link": "resources/SEPROM/AppleSEPROM-834.0.0.300.5",
+                "name": "Coll B0 SEPROM",
+                "date": "big_date",
+                "picture": "resources/images/Apple_A17.png",
+                "version": "AppleSEPROM-834.0.0.300.5",
+                "from": "D83AP unknown revision",
+                "desc": "SEPROM from A17 of revision B0 (middle one). Be careful with this one, as it could be patched",
+                "__date_sort": 1893452400,
+                "__version_sort": 34
             }
         ]
     },
@@ -1148,6 +1159,17 @@ var map =
                 "__version_sort": 6
             },
             {
+                "link": "resources/Samsung/ROM BOOT, S5L8443",
+                "name": "ROM BOOT, S5L8443",
+                "date": "big_date",
+                "picture": "resources/images/S5L8443.jpg",
+                "version": "unknown",
+                "from": "unknown",
+                "desc": "Bootrom for iPod shuffle 4G",
+                "__date_sort": 1893452400,
+                "__version_sort": 7
+            },
+            {
                 "link": "resources/Samsung/ROM BOOT, S5L8740",
                 "name": "ROM BOOT, S5L8740",
                 "date": "6.2.24",
@@ -1156,7 +1178,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPod nano 7G",
                 "__date_sort": 1707174000,
-                "__version_sort": 7
+                "__version_sort": 8
             }
         ]
     }

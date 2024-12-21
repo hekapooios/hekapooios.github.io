@@ -5,6 +5,7 @@ import json
 from datetime import datetime
 
 OUT_FILE = "map__.js"
+DATE_PLACEHOLDER = "big_date"
 JS_TEMPLATE = "var map = \n%s"
 TAG_COUNT_MAX = 5
 
@@ -39,6 +40,9 @@ def process_map(map_raw: dict):
 
         for idx, entry in enumerate(val["roms"]):
             date = entry["date"]
+            if date == DATE_PLACEHOLDER:
+                date = "1.1.30"
+
             version = entry["version"]
 
             timestamp = int(datetime.strptime(date, "%d.%m.%y").timestamp())
