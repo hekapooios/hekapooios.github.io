@@ -1154,7 +1154,7 @@ var map =
                 "picture": "resources/images/S5L8723.jpg",
                 "version": "unknown",
                 "from": "unknown",
-                "desc": "Bootrom for iPod nano 6G",
+                "desc": "Bootrom for iPod nano 6G. Vulnerable to S5Late",
                 "__date_sort": 1707174000,
                 "__version_sort": 6
             },
@@ -1165,7 +1165,7 @@ var map =
                 "picture": "resources/images/S5L8443.jpg",
                 "version": "unknown",
                 "from": "unknown",
-                "desc": "Bootrom for iPod shuffle 4G",
+                "desc": "Bootrom for iPod shuffle 4G. Vulnerable to S5Late",
                 "__date_sort": 1734908400,
                 "__version_sort": 7
             },
@@ -1176,7 +1176,7 @@ var map =
                 "picture": "resources/images/S5L8740.jpg",
                 "version": "unknown",
                 "from": "unknown",
-                "desc": "Bootrom for iPod nano 7G",
+                "desc": "Bootrom for iPod nano 7G. Vulnerable to S5Late",
                 "__date_sort": 1707174000,
                 "__version_sort": 8
             }
