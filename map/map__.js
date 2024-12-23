@@ -1021,12 +1021,12 @@ var map =
             {
                 "link": "resources/SEPROM/AppleSEPROM-834.0.0.300.5",
                 "name": "Coll B0 SEPROM",
-                "date": "big_date",
+                "date": "23.12.24",
                 "picture": "resources/images/Apple_A17.png",
                 "version": "AppleSEPROM-834.0.0.300.5",
                 "from": "D83AP unknown revision",
                 "desc": "SEPROM from A17 of revision B0 (middle one). Be careful with this one, as it could be patched",
-                "__date_sort": 1893452400,
+                "__date_sort": 1734908400,
                 "__version_sort": 34
             }
         ]
@@ -1161,12 +1161,12 @@ var map =
             {
                 "link": "resources/Samsung/ROM BOOT, S5L8443",
                 "name": "ROM BOOT, S5L8443",
-                "date": "big_date",
+                "date": "23.12.24",
                 "picture": "resources/images/S5L8443.jpg",
                 "version": "unknown",
                 "from": "unknown",
                 "desc": "Bootrom for iPod shuffle 4G",
-                "__date_sort": 1893452400,
+                "__date_sort": 1734908400,
                 "__version_sort": 7
             },
             {
