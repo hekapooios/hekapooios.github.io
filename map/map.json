@@ -2,6 +2,15 @@
     "aps" : {
             "roms" : [
                 {
+                    "link" : "resources/APROM/SecureROM for s5l8720xsi, iBoot-240.2",
+                    "name" : "SecureROM for s5l8720xsi (non-production!)",
+                    "date" : "1.1.25",
+                    "picture": "resources/images/S5L8720.jpg",
+                    "version" : "iBoot-240.2",
+                    "from" : "unknown",
+                    "desc" : "iPod touch 2G non-production ROM dumped from M2 A0 device. This makes it the first ever iBoot-based bootrom that made it into real silicon!"
+                },
+                {
                     "link" : "resources/APROM/SecureROM for s5l8720xsi, iBoot-240.4",
                     "name" : "SecureROM for s5l8720xsi (old)",
                     "date" : "26.10.19",
