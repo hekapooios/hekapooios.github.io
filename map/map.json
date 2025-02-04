@@ -709,6 +709,15 @@
                    "desc" : "SEPROM from A12X of revision A0 (first one)"
                 },
                 {
+                    "link" : "resources/SEPROM/AppleSEPROM-Aruba-A1",
+                    "name" : "Aruba A1 SEPROM",
+                    "date" : "4.2.25",
+                    "picture": "resources/images/Apple_A12Z.jpg",
+                    "version" : "private_build...(root@rebels.apple.com)...2018/03/21...08:44:59...",
+                    "from" : "unknown",
+                    "desc" : "SEPROM from A12X of revision A1 (latest one)"
+                },
+                {
                     "link" : "resources/SEPROM/AppleSEPROM-Cebu-A0",
                     "name" : "Cebu A0 SEPROM",
                     "date" : "29.1.24",
