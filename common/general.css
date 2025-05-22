@@ -21,10 +21,18 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background: radial-gradient(ellipse at center, #1B2735, #090A0F);;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     color: white;
+}
+
+div.background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: radial-gradient(ellipse at center, #1B2735, #090A0F);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
 
 div.main {
