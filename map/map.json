@@ -531,6 +531,15 @@
                     "version" : "iBoot-8104.0.0.201.4",
                     "from" : "unknown",
                     "desc" : "Bootrom for iPhone 15 Pro [Max]"
+                },
+                {
+                    "link" : "resources/APROM/SecureROM for t6031si, iBoot-8104.0.0.300.22",
+                    "name" : "SecureROM for t6031si (non-production)",
+                    "date" : "3.6.25",
+                    "picture": "resources/images/T6031.jpg",
+                    "version" : "iBoot-8104.0.0.300.22",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for MacBook Pro (M3 Max)"
                 }
             ]
         },
@@ -860,6 +869,15 @@
                     "version" : "AppleSEPROM-834.0.0.300.5",
                     "from" : "D83AP unknown revision",
                     "desc" : "SEPROM from A17 of revision B0 (middle one). Be careful with this one, as it could be patched"
+                },
+                {
+                    "link" : "resources/SEPROM/AppleSEPROM-838.0.0.300.9",
+                    "name" : "Palma 1C A0 SEPROM",
+                    "date" : "3.6.25",
+                    "picture": "resources/images/T6031.jpg",
+                    "version" : "AppleSEPROM-838.0.0.300.9",
+                    "from" : "unknown",
+                    "desc" : "SEPROM from M3 Max of revision A0 (first one)"
                 }
             ]
         },
