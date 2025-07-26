@@ -272,7 +272,7 @@ var map =
                 "date": "26.10.19",
                 "picture": "resources/images/Apple_A9_APL1022.jpg",
                 "version": "iBoot-2234.0.0.2.22",
-                "from": "J112 PROTO0",
+                "from": "J112 Proto0",
                 "desc": "A9 TSMC. Bootrom for iPhone 6S [Plus], iPhone SE, iPad 5. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
                 "__version_sort": 24
@@ -311,6 +311,17 @@ var map =
                 "__version_sort": 27
             },
             {
+                "link": "resources/APROM/SecureROM for t8002si, iBoot-2651.0.0.1.30",
+                "name": "SecureROM for t8002si (non-production)",
+                "date": "26.7.25",
+                "picture": "resources/images/Apple_S2_module.png",
+                "version": "iBoot-2651.0.0.1.30",
+                "from": "N75AP Proto2",
+                "desc": "Bootrom for Apple Watch Series 1/2 and iBridge 1st-gen. Vulnerable to checkm8",
+                "__date_sort": 1753480800,
+                "__version_sort": 28
+            },
+            {
                 "link": "resources/APROM/SecureROM for t8002si, iBoot-2651.0.0.1.31",
                 "name": "SecureROM for t8002si",
                 "date": "8.12.19",
@@ -319,7 +330,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for Apple Watch Series 1/2 and iBridge 1st-gen. Vulnerable to checkm8",
                 "__date_sort": 1575759600,
-                "__version_sort": 28
+                "__version_sort": 29
             },
             {
                 "link": "resources/APROM/SecureROM for t8004si, iBoot-2651.0.0.2.9",
@@ -330,7 +341,7 @@ var map =
                 "from": "unknown",
                 "desc": "Non-production bootrom for Apple Watch Series 3. Vulnerable to checkm8",
                 "__date_sort": 1706482800,
-                "__version_sort": 29
+                "__version_sort": 30
             },
             {
                 "link": "resources/APROM/SecureROM for t8004si, iBoot-2651.0.0.3.3",
@@ -341,7 +352,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for Apple Watch Series 3. Vulnerable to checkm8",
                 "__date_sort": 1581202800,
-                "__version_sort": 30
+                "__version_sort": 31
             },
             {
                 "link": "resources/APROM/SecureROM for t8010si, iBoot-2696.0.0.1.33",
@@ -352,7 +363,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 7 [Plus], iPad 6, iPod touch 7 and iPad 7. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 31
+                "__version_sort": 32
             },
             {
                 "link": "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.1.12",
@@ -363,7 +374,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPad Pro (2017) and Apple TV 4K. Vulnerable to checkm8",
                 "__date_sort": 1589234400,
-                "__version_sort": 32
+                "__version_sort": 33
             },
             {
                 "link": "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.2.3",
@@ -374,7 +385,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPad Pro (2017) and Apple TV 4K. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 33
+                "__version_sort": 34
             },
             {
                 "link": "resources/APROM/SecureROM for t8015si, iBoot-3332.0.0.1.23",
@@ -385,7 +396,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 8 [Plus] and X. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 34
+                "__version_sort": 35
             },
             {
                 "link": "resources/APROM/SecureROM for t8012si, iBoot-3401.0.0.1.16",
@@ -396,7 +407,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iBridge 2nd-gen. Vulnerable to checkm8",
                 "__date_sort": 1585778400,
-                "__version_sort": 35
+                "__version_sort": 36
             },
             {
                 "link": "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.1.23",
@@ -407,7 +418,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone XR, XS [Max], iPad Air 3 and iPad mini 5",
                 "__date_sort": 1706482800,
-                "__version_sort": 36
+                "__version_sort": 37
             },
             {
                 "link": "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.4.6",
@@ -418,7 +429,7 @@ var map =
                 "from": "D321AP DVT",
                 "desc": "Bootrom for iPhone XR, XS [Max], iPad Air 3 and iPad mini 5",
                 "__date_sort": 1572040800,
-                "__version_sort": 37
+                "__version_sort": 38
             },
             {
                 "link": "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.4.7",
@@ -429,7 +440,7 @@ var map =
                 "from": "D321AP",
                 "desc": "Bootrom for iPhone XR, XS [Max], iPad Air 3 and iPad mini 5",
                 "__date_sort": 1575759600,
-                "__version_sort": 38
+                "__version_sort": 39
             },
             {
                 "link": "resources/APROM/SecureROM for t8027si, iBoot-4172.0.0.100.13",
@@ -440,7 +451,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPad Pro 2018/2020",
                 "__date_sort": 1706482800,
-                "__version_sort": 39
+                "__version_sort": 40
             },
             {
                 "link": "resources/APROM/SecureROM for t8027si, iBoot-4172.0.0.100.14",
@@ -451,7 +462,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPad Pro 2018/2020",
                 "__date_sort": 1706482800,
-                "__version_sort": 40
+                "__version_sort": 41
             },
             {
                 "link": "resources/APROM/SecureROM for t8006si, iBoot-3988.0.0.2.12",
@@ -462,7 +473,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for Apple Watch Series 4/5",
                 "__date_sort": 1589234400,
-                "__version_sort": 41
+                "__version_sort": 42
             },
             {
                 "link": "resources/APROM/SecureROM for t8030si, iBoot-4479.0.0.100.4",
@@ -473,7 +484,7 @@ var map =
                 "from": "D421AP DVT",
                 "desc": "Bootrom for iPhone 11, 11 Pro [Max] and SE (2nd generation)",
                 "__date_sort": 1574636400,
-                "__version_sort": 42
+                "__version_sort": 43
             },
             {
                 "link": "resources/APROM/SecureROM for t8101si, iBoot-5281.0.0.100.22",
@@ -484,7 +495,7 @@ var map =
                 "from": "D53gAP Proto2",
                 "desc": "Bootrom for iPhone 12 [mini], 12 Pro [Max] and iPad Air 4",
                 "__date_sort": 1622584800,
-                "__version_sort": 43
+                "__version_sort": 44
             },
             {
                 "link": "resources/APROM/SecureROM for t8101si, iBoot-5281.0.0.100.34",
@@ -495,7 +506,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 12 [mini], 12 Pro [Max] and iPad Air 4",
                 "__date_sort": 1706482800,
-                "__version_sort": 44
+                "__version_sort": 45
             },
             {
                 "link": "resources/APROM/SecureROM for t8101si, iBoot-5281.0.0.100.45",
@@ -506,7 +517,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 12 [mini], 12 Pro [Max] and iPad Air 4",
                 "__date_sort": 1706482800,
-                "__version_sort": 45
+                "__version_sort": 46
             },
             {
                 "link": "resources/APROM/SecureROM for t8301si, iBoot-5281.0.0.200.31",
@@ -517,7 +528,7 @@ var map =
                 "from": "N157sAP ANT (?!)",
                 "desc": "Bootrom for Apple Watch Series 6/7/8/Ultra",
                 "__date_sort": 1724536800,
-                "__version_sort": 46
+                "__version_sort": 47
             },
             {
                 "link": "resources/APROM/SecureROM for t8301si, iBoot-5281.0.0.300.17",
@@ -528,7 +539,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for Apple Watch Series 6/7/8/Ultra",
                 "__date_sort": 1706482800,
-                "__version_sort": 47
+                "__version_sort": 48
             },
             {
                 "link": "resources/APROM/SecureROM for t8103si, iBoot-5540.0.0.200.13",
@@ -539,7 +550,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for M1 Macs and iPads",
                 "__date_sort": 1706482800,
-                "__version_sort": 48
+                "__version_sort": 49
             },
             {
                 "link": "resources/APROM/SecureROM for t8103si, iBoot-5540.0.0.400.2",
@@ -550,7 +561,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for M1 Macs and iPads",
                 "__date_sort": 1706482800,
-                "__version_sort": 49
+                "__version_sort": 50
             },
             {
                 "link": "resources/APROM/SecureROM for t8110si, iBoot-6338.0.0.200.15",
@@ -561,7 +572,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 13 [mini], iPhone 13 Pro [Max], iPad mini 6 and Apple TV 4K (3rd-generation)",
                 "__date_sort": 1706482800,
-                "__version_sort": 50
+                "__version_sort": 51
             },
             {
                 "link": "resources/APROM/SecureROM for t8110si, iBoot-6338.0.0.200.19",
@@ -572,7 +583,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 13 [mini], iPhone 13 Pro [Max], iPad mini 6 and Apple TV 4K (3rd-generation)",
                 "__date_sort": 1706482800,
-                "__version_sort": 51
+                "__version_sort": 52
             },
             {
                 "link": "resources/APROM/SecureROM for t8112si, iBoot-6821.0.0.200.13",
@@ -583,7 +594,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for M2 Macs and iPads",
                 "__date_sort": 1706482800,
-                "__version_sort": 52
+                "__version_sort": 53
             },
             {
                 "link": "resources/APROM/SecureROM for t8112si, iBoot-6821.0.0.200.16",
@@ -594,7 +605,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for M2 Macs and iPads",
                 "__date_sort": 1706482800,
-                "__version_sort": 53
+                "__version_sort": 54
             },
             {
                 "link": "resources/APROM/SecureROM for t6020si, iBoot-7168.0.0.200.21",
@@ -605,7 +616,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for M2 Pro/Max/(Ultra?) Macs",
                 "__date_sort": 1706482800,
-                "__version_sort": 54
+                "__version_sort": 55
             },
             {
                 "link": "resources/APROM/SecureROM for t8120si, iBoot-7195.0.0.200.29",
@@ -616,7 +627,7 @@ var map =
                 "from": "D73AP Proto2",
                 "desc": "Bootrom for iPhone 14 Pro [Max] and iPhone 15 [Plus]",
                 "__date_sort": 1706482800,
-                "__version_sort": 55
+                "__version_sort": 56
             },
             {
                 "link": "resources/APROM/SecureROM for t8120si, iBoot-7195.0.0.300.25",
@@ -627,7 +638,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 14 Pro [Max] and iPhone 15 [Plus]",
                 "__date_sort": 1711922400,
-                "__version_sort": 56
+                "__version_sort": 57
             },
             {
                 "link": "resources/APROM/SecureROM for t8130si, iBoot-8104.0.0.200.24",
@@ -638,7 +649,7 @@ var map =
                 "from": "D84AP Proto2",
                 "desc": "Bootrom for iPhone 15 Pro [Max]",
                 "__date_sort": 1711922400,
-                "__version_sort": 57
+                "__version_sort": 58
             },
             {
                 "link": "resources/APROM/SecureROM for t8130si, iBoot-8104.0.0.201.4",
@@ -649,7 +660,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 15 Pro [Max]",
                 "__date_sort": 1731711600,
-                "__version_sort": 58
+                "__version_sort": 59
             },
             {
                 "link": "resources/APROM/SecureROM for t6031si, iBoot-8104.0.0.300.22",
@@ -660,7 +671,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for MacBook Pro (M3 Max)",
                 "__date_sort": 1748901600,
-                "__version_sort": 59
+                "__version_sort": 60
             }
         ]
     },
@@ -738,7 +749,7 @@ var map =
                 "date": "26.10.19",
                 "picture": "resources/images/Apple_A9_APL1022.jpg",
                 "version": "AppleSEPROM-230.0.0.4.1",
-                "from": "J112AP PROTO0",
+                "from": "J112AP Proto0",
                 "desc": "SEPROM from A9 (TSMC) of revision A1 (latest one)",
                 "__date_sort": 1572040800,
                 "__version_sort": 6
@@ -755,6 +766,17 @@ var map =
                 "__version_sort": 7
             },
             {
+                "link": "resources/SEPROM/AppleSEPROM-263.0.0.1.7",
+                "name": "M8 A5 SEPROM",
+                "date": "26.7.25",
+                "picture": "resources/images/Apple_S2_module.png",
+                "version": "AppleSEPROM-263.0.0.1.7",
+                "from": "N75AP Proto2",
+                "desc": "SEPROM from S1P/S2 of revision A5 (early one)",
+                "__date_sort": 1753480800,
+                "__version_sort": 8
+            },
+            {
                 "link": "resources/SEPROM/AppleSEPROM-263.0.0.1.11",
                 "name": "M8 B0 SEPROM",
                 "date": "29.1.24",
@@ -763,7 +785,7 @@ var map =
                 "from": "N74AP",
                 "desc": "SEPROM from S1P/S2 of revision B0 (latest one?)",
                 "__date_sort": 1706482800,
-                "__version_sort": 8
+                "__version_sort": 9
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-268.0.0.1.16",
@@ -774,7 +796,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A10 of revision B1 (latest one)",
                 "__date_sort": 1589407200,
-                "__version_sort": 9
+                "__version_sort": 10
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-302.0.0.1.2",
@@ -785,7 +807,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A10X of revision A0 (first one)",
                 "__date_sort": 1589234400,
-                "__version_sort": 10
+                "__version_sort": 11
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-302.0.0.2.1",
@@ -796,7 +818,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A10X of revision B0 (latest one)",
                 "__date_sort": 1589407200,
-                "__version_sort": 11
+                "__version_sort": 12
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-312.0.0.1.3",
@@ -807,7 +829,7 @@ var map =
                 "from": "N111bAP Proto1",
                 "desc": "SEPROM from S3 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 12
+                "__version_sort": 13
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-312.0.0.1.5",
@@ -818,7 +840,18 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from S3 of revision B0 (latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 13
+                "__version_sort": 14
+            },
+            {
+                "link": "resources/SEPROM/AppleSEPROM-323.0.0.1.10",
+                "name": "Skye A1 SEPROM",
+                "date": "26.7.25",
+                "picture": "resources/images/Apple_A11.jpg",
+                "version": "AppleSEPROM-323.0.0.1.10",
+                "from": "unknown",
+                "desc": "SEPROM from A11 of revision A1 (early one)",
+                "__date_sort": 1753480800,
+                "__version_sort": 15
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-340.0.0.1.4",
@@ -829,7 +862,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from T2 of revision B0 (latest one)",
                 "__date_sort": 1731711600,
-                "__version_sort": 14
+                "__version_sort": 16
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Cyprus-A0",
@@ -840,7 +873,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A12 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 15
+                "__version_sort": 17
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Cyprus-B1",
@@ -851,7 +884,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A12 of revision B1 (latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 16
+                "__version_sort": 18
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-M9-B0-B1",
@@ -862,7 +895,7 @@ var map =
                 "from": "N146sAP",
                 "desc": "SEPROM from S4/S5 of revision B0/B1 (latest one)",
                 "__date_sort": 1595541600,
-                "__version_sort": 17
+                "__version_sort": 19
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Aruba-A0",
@@ -873,7 +906,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A12X of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 18
+                "__version_sort": 20
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Aruba-A1",
@@ -884,7 +917,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A12X of revision A1 (latest one)",
                 "__date_sort": 1738623600,
-                "__version_sort": 19
+                "__version_sort": 21
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Cebu-A0",
@@ -895,7 +928,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A13 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 20
+                "__version_sort": 22
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Cebu-B1",
@@ -906,7 +939,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A13 of revision B1 (latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 21
+                "__version_sort": 23
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Sicily-A0",
@@ -917,7 +950,7 @@ var map =
                 "from": "D53gAP Proto2",
                 "desc": "SEPROM from A14 of revision A0 (first one)",
                 "__date_sort": 1622584800,
-                "__version_sort": 22
+                "__version_sort": 24
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Sicily-B0_B1",
@@ -928,7 +961,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A14 of revision B0/B1 (middle/latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 23
+                "__version_sort": 25
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Tonga-A0",
@@ -939,7 +972,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from M1 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 24
+                "__version_sort": 26
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-520.0.102.200.16",
@@ -950,7 +983,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from M1 of revision B1 (latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 25
+                "__version_sort": 27
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Turks-A0",
@@ -961,7 +994,7 @@ var map =
                 "from": "N157sAP ANT (?!)",
                 "desc": "SEPROM from S6/S7/S8 of revision A0 (first one)",
                 "__date_sort": 1724536800,
-                "__version_sort": 26
+                "__version_sort": 28
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-Turks-B0",
@@ -972,7 +1005,7 @@ var map =
                 "from": "N188bAP EVT",
                 "desc": "SEPROM from S6/S7/S8 of revision B0 (latest one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 27
+                "__version_sort": 29
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-520.400.46.200.4",
@@ -983,7 +1016,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A15 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 28
+                "__version_sort": 30
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-520.400.46.200.18",
@@ -994,7 +1027,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A15 of revision B0 (middle one, <s>but allegedly matches latest one</s> it doesn't)",
                 "__date_sort": 1706482800,
-                "__version_sort": 29
+                "__version_sort": 31
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-520.400.46.200.19",
@@ -1005,7 +1038,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A15 of revision B1 (latest one)",
                 "__date_sort": 1724536800,
-                "__version_sort": 30
+                "__version_sort": 32
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-544.0.0.200.1",
@@ -1016,7 +1049,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from M2 of revision B0 (middle one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 31
+                "__version_sort": 33
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-605.0.0.200.9",
@@ -1027,7 +1060,7 @@ var map =
                 "from": "D73AP Proto2",
                 "desc": "SEPROM from A16 of revision A0 (first one)",
                 "__date_sort": 1706482800,
-                "__version_sort": 32
+                "__version_sort": 34
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-605.0.0.200.12",
@@ -1038,7 +1071,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from A16 of revision B1 (latest one)",
                 "__date_sort": 1711922400,
-                "__version_sort": 33
+                "__version_sort": 35
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-834.0.0.200.11",
@@ -1049,7 +1082,7 @@ var map =
                 "from": "D84AP Proto2",
                 "desc": "SEPROM from A17 of revision A0 (first one). Be careful with this one, as it could be patched",
                 "__date_sort": 1718402400,
-                "__version_sort": 34
+                "__version_sort": 36
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-834.0.0.300.5",
@@ -1060,7 +1093,7 @@ var map =
                 "from": "D83AP unknown revision",
                 "desc": "SEPROM from A17 of revision B0 (middle one). Be careful with this one, as it could be patched",
                 "__date_sort": 1734908400,
-                "__version_sort": 35
+                "__version_sort": 37
             },
             {
                 "link": "resources/SEPROM/AppleSEPROM-838.0.0.300.9",
@@ -1071,7 +1104,7 @@ var map =
                 "from": "unknown",
                 "desc": "SEPROM from M3 Max of revision A0 (first one)",
                 "__date_sort": 1748901600,
-                "__version_sort": 36
+                "__version_sort": 38
             }
         ]
     },

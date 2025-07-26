@@ -223,7 +223,7 @@
                     "date" : "26.10.19",
                     "picture": "resources/images/Apple_A9_APL1022.jpg",
                     "version" : "iBoot-2234.0.0.2.22",
-                    "from" : "J112 PROTO0",
+                    "from" : "J112 Proto0",
                     "desc" : "A9 TSMC. Bootrom for iPhone 6S [Plus], iPhone SE, iPad 5. Vulnerable to checkm8"
                 },
                 {
@@ -252,6 +252,15 @@
                     "version" : "iBoot-2481.0.0.2.1",
                     "from" : "unknown",
                     "desc" : "Bootrom for iPad Pro (1st-gen). Vulnerable to checkm8"
+                },
+                {
+                    "link" : "resources/APROM/SecureROM for t8002si, iBoot-2651.0.0.1.30",
+                    "name" : "SecureROM for t8002si (non-production)",
+                    "date" : "26.7.25",
+                    "picture": "resources/images/Apple_S2_module.png",
+                    "version" : "iBoot-2651.0.0.1.30",
+                    "from" : "N75AP Proto2",
+                    "desc" : "Bootrom for Apple Watch Series 1/2 and iBridge 1st-gen. Vulnerable to checkm8"
                 },
                 {
                     "link" : "resources/APROM/SecureROM for t8002si, iBoot-2651.0.0.1.31",
@@ -606,7 +615,7 @@
                     "date" : "26.10.19",
                     "picture": "resources/images/Apple_A9_APL1022.jpg",
                     "version" : "AppleSEPROM-230.0.0.4.1",
-                    "from" : "J112AP PROTO0",
+                    "from" : "J112AP Proto0",
                     "desc" : "SEPROM from A9 (TSMC) of revision A1 (latest one)"
                 },
                 {
@@ -617,6 +626,15 @@
                     "version" : "AppleSEPROM-241.0.0.1.1",
                     "from" : "unknown",
                     "desc" : "SEPROM from A9X of revision A0 (first one)"
+                },
+                {
+                    "link" : "resources/SEPROM/AppleSEPROM-263.0.0.1.7",
+                    "name" : "M8 A5 SEPROM",
+                    "date" : "26.7.25",
+                    "picture": "resources/images/Apple_S2_module.png",
+                    "version" : "AppleSEPROM-263.0.0.1.7",
+                    "from" : "N75AP Proto2",
+                    "desc" : "SEPROM from S1P/S2 of revision A5 (early one)"
                 },
                 {
                     "link" : "resources/SEPROM/AppleSEPROM-263.0.0.1.11",
