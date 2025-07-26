@@ -673,6 +673,15 @@
                    "desc" : "SEPROM from S3 of revision B0 (latest one)"
                 },
                 {
+                   "link" : "resources/SEPROM/AppleSEPROM-323.0.0.1.10",
+                   "name" : "Skye A1 SEPROM",
+                   "date" : "26.7.25",
+                   "picture": "resources/images/Apple_A11.jpg",
+                   "version" : "AppleSEPROM-323.0.0.1.10",
+                   "from" : "unknown",
+                   "desc" : "SEPROM from A11 of revision A1 (early one)"
+                },
+                {
                     "link" : "resources/SEPROM/AppleSEPROM-340.0.0.1.4",
                     "name" : "Gibraltar B0 SEPROM",
                     "date" : "16.11.24",
