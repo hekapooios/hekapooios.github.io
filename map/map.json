@@ -317,6 +317,15 @@
                     "desc" : "Bootrom for iPad Pro (2017) and Apple TV 4K. Vulnerable to checkm8"
                 },
                 {
+                    "link" : "resources/APROM/SecureROM for t8015si, iBoot-3332.0.0.1.14",
+                    "name" : "SecureROM for t8015si (non-production)",
+                    "date" : "3.8.25",
+                    "picture": "resources/images/Apple_A11.jpg",
+                    "version" : "iBoot-3332.0.0.1.14",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for iPhone 8 [Plus] and X. Vulnerable to checkm8"
+                },
+                {
                     "link" : "resources/APROM/SecureROM for t8015si, iBoot-3332.0.0.1.23",
                     "name" : "SecureROM for t8015si",
                     "date" : "26.10.19",
@@ -692,7 +701,7 @@
                 },
                 {
                    "link" : "resources/SEPROM/AppleSEPROM-323.0.0.1.10",
-                   "name" : "Skye A1 SEPROM",
+                   "name" : "Skye A0/A1 SEPROM",
                    "date" : "26.7.25",
                    "picture": "resources/images/Apple_A11.jpg",
                    "version" : "AppleSEPROM-323.0.0.1.10",
