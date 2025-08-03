@@ -10,7 +10,7 @@ JS_TEMPLATE = "var map = \n%s"
 TAG_COUNT_MAX = 5
 
 # Not worth the hassle due to 8942 being "rom",
-# half the SEPROMs being privately build and etc.
+# half the SEPROMs being privately built and etc.
 
 # def convert_version(version: str) -> int:
 #     splitted = version.split("-")
