@@ -168,6 +168,17 @@ var map =
                 "__version_sort": 14
             },
             {
+                "link": "resources/APROM/SecureROM for s5l8747xsi, iBoot-1413.6",
+                "name": "SecureROM for s5l8747xsi",
+                "date": "14.2.26",
+                "picture": "resources/images/339S0196.jpg",
+                "version": "iBoot-1413.6",
+                "from": "B165AP Proto1",
+                "desc": "Bootrom for Haywire. Vulnerable to checkm8",
+                "__date_sort": 1771023600,
+                "__version_sort": 15
+            },
+            {
                 "link": "resources/APROM/SecureROM for s5l8747xsi, iBoot-1413.8",
                 "name": "SecureROM for s5l8747xsi",
                 "date": "9.2.20",
@@ -176,7 +187,7 @@ var map =
                 "from": "B165AP",
                 "desc": "Bootrom for Haywire. Vulnerable to checkm8",
                 "__date_sort": 1581202800,
-                "__version_sort": 15
+                "__version_sort": 16
             },
             {
                 "link": "resources/APROM/SecureROM for s5l8947xsi, iBoot-1458.2",
@@ -187,7 +198,7 @@ var map =
                 "from": "J33iAP",
                 "desc": "Bootrom for Apple TV 3 (3,2). Vulnerable to checkm8",
                 "__date_sort": 1581202800,
-                "__version_sort": 16
+                "__version_sort": 17
             },
             {
                 "link": "resources/APROM/SecureROM for s5l8960xsi, iBoot-1585.4",
@@ -198,7 +209,7 @@ var map =
                 "from": "N53AP EVT1a",
                 "desc": "Bootrom for first revision Alcatraz (A7). Vulnerable to checkm8",
                 "__date_sort": 1586469600,
-                "__version_sort": 17
+                "__version_sort": 18
             },
             {
                 "link": "resources/APROM/SecureROM for s5l8960xsi, iBoot-1704.10",
@@ -209,7 +220,7 @@ var map =
                 "from": "J71AP EVT",
                 "desc": "Bootrom for iPhone 5S, iPad Air 1, iPad mini 2 and 3. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 18
+                "__version_sort": 19
             },
             {
                 "link": "resources/APROM/SecureROM for t7000si, iBoot-1873.0.0.1.19",
@@ -220,7 +231,7 @@ var map =
                 "from": "T137AP",
                 "desc": "Bootrom for first revision Fiji (A8). Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 19
+                "__version_sort": 20
             },
             {
                 "link": "resources/APROM/SecureROM for t7001si, iBoot-1991.0.0.2.16",
@@ -231,7 +242,7 @@ var map =
                 "from": "J82AP EVT",
                 "desc": "Bootrom for iPad Air 2. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 20
+                "__version_sort": 21
             },
             {
                 "link": "resources/APROM/SecureROM for t7000si, iBoot-1992.0.0.1.19",
@@ -242,7 +253,7 @@ var map =
                 "from": "N102AP EVT",
                 "desc": "Bootrom for iPhone 6 [Plus], iPad mini 4, Apple TV 4, iPod touch 6, HomePod and, allegedly, AirPower. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 21
+                "__version_sort": 22
             },
             {
                 "link": "resources/APROM/SecureROM for s7002si, iBoot-2098.0.0.2.4",
@@ -253,7 +264,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for Apple Watch 1st-gen. Vulnerable to checkm8",
                 "__date_sort": 1581202800,
-                "__version_sort": 22
+                "__version_sort": 23
             },
             {
                 "link": "resources/APROM/SecureROM for s8000si, iBoot-2234.0.0.2.22",
@@ -264,7 +275,7 @@ var map =
                 "from": "N66AP EVT",
                 "desc": "A9 Samsung. Bootrom for iPhone 6S [Plus], iPhone SE, iPad 5. Vulnerable to checkm8",
                 "__date_sort": 1581289200,
-                "__version_sort": 23
+                "__version_sort": 24
             },
             {
                 "link": "resources/APROM/SecureROM for s8003si, iBoot-2234.0.0.2.22",
@@ -275,7 +286,7 @@ var map =
                 "from": "J112 Proto0",
                 "desc": "A9 TSMC. Bootrom for iPhone 6S [Plus], iPhone SE, iPad 5. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 24
+                "__version_sort": 25
             },
             {
                 "link": "resources/APROM/SecureROM for s8000si, iBoot-2234.0.0.3.3",
@@ -286,7 +297,7 @@ var map =
                 "from": "N69uAP",
                 "desc": "A9 Samsung. Bootrom for iPhone 6S [Plus], iPhone SE, iPad 5. Vulnerable to checkm8",
                 "__date_sort": 1574636400,
-                "__version_sort": 25
+                "__version_sort": 26
             },
             {
                 "link": "resources/APROM/SecureROM for s8001si, iBoot-2481.0.0.1.6",
@@ -297,7 +308,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPad Pro (1st-gen). Vulnerable to checkm8",
                 "__date_sort": 1589234400,
-                "__version_sort": 26
+                "__version_sort": 27
             },
             {
                 "link": "resources/APROM/SecureROM for s8001si, iBoot-2481.0.0.2.1",
@@ -308,7 +319,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPad Pro (1st-gen). Vulnerable to checkm8",
                 "__date_sort": 1589234400,
-                "__version_sort": 27
+                "__version_sort": 28
             },
             {
                 "link": "resources/APROM/SecureROM for t8002si, iBoot-2651.0.0.1.30",
@@ -319,7 +330,7 @@ var map =
                 "from": "N75AP Proto2",
                 "desc": "Bootrom for Apple Watch Series 1/2 and iBridge 1st-gen. Vulnerable to checkm8",
                 "__date_sort": 1753480800,
-                "__version_sort": 28
+                "__version_sort": 29
             },
             {
                 "link": "resources/APROM/SecureROM for t8002si, iBoot-2651.0.0.1.31",
@@ -330,7 +341,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for Apple Watch Series 1/2 and iBridge 1st-gen. Vulnerable to checkm8",
                 "__date_sort": 1575759600,
-                "__version_sort": 29
+                "__version_sort": 30
             },
             {
                 "link": "resources/APROM/SecureROM for t8004si, iBoot-2651.0.0.2.9",
@@ -341,7 +352,7 @@ var map =
                 "from": "unknown",
                 "desc": "Non-production bootrom for Apple Watch Series 3. Vulnerable to checkm8",
                 "__date_sort": 1706482800,
-                "__version_sort": 30
+                "__version_sort": 31
             },
             {
                 "link": "resources/APROM/SecureROM for t8004si, iBoot-2651.0.0.3.3",
@@ -352,7 +363,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for Apple Watch Series 3. Vulnerable to checkm8",
                 "__date_sort": 1581202800,
-                "__version_sort": 31
+                "__version_sort": 32
             },
             {
                 "link": "resources/APROM/SecureROM for t8010si, iBoot-2696.0.0.1.33",
@@ -363,7 +374,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 7 [Plus], iPad 6, iPod touch 7 and iPad 7. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 32
+                "__version_sort": 33
             },
             {
                 "link": "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.1.12",
@@ -374,7 +385,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPad Pro (2017) and Apple TV 4K. Vulnerable to checkm8",
                 "__date_sort": 1589234400,
-                "__version_sort": 33
+                "__version_sort": 34
             },
             {
                 "link": "resources/APROM/SecureROM for t8011si, iBoot-3135.0.0.2.3",
@@ -385,7 +396,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPad Pro (2017) and Apple TV 4K. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 34
+                "__version_sort": 35
             },
             {
                 "link": "resources/APROM/SecureROM for t8015si, iBoot-3332.0.0.1.14",
@@ -396,7 +407,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 8 [Plus] and X. Vulnerable to checkm8",
                 "__date_sort": 1754172000,
-                "__version_sort": 35
+                "__version_sort": 36
             },
             {
                 "link": "resources/APROM/SecureROM for t8015si, iBoot-3332.0.0.1.23",
@@ -407,7 +418,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 8 [Plus] and X. Vulnerable to checkm8",
                 "__date_sort": 1572040800,
-                "__version_sort": 36
+                "__version_sort": 37
             },
             {
                 "link": "resources/APROM/SecureROM for t8012si, iBoot-3401.0.0.1.16",
@@ -418,7 +429,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iBridge 2nd-gen. Vulnerable to checkm8",
                 "__date_sort": 1585778400,
-                "__version_sort": 37
+                "__version_sort": 38
             },
             {
                 "link": "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.1.23",
@@ -429,7 +440,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone XR, XS [Max], iPad Air 3 and iPad mini 5",
                 "__date_sort": 1706482800,
-                "__version_sort": 38
+                "__version_sort": 39
             },
             {
                 "link": "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.4.6",
@@ -440,7 +451,7 @@ var map =
                 "from": "D321AP DVT",
                 "desc": "Bootrom for iPhone XR, XS [Max], iPad Air 3 and iPad mini 5",
                 "__date_sort": 1572040800,
-                "__version_sort": 39
+                "__version_sort": 40
             },
             {
                 "link": "resources/APROM/SecureROM for t8020si, iBoot-3865.0.0.4.7",
@@ -451,7 +462,7 @@ var map =
                 "from": "D321AP",
                 "desc": "Bootrom for iPhone XR, XS [Max], iPad Air 3 and iPad mini 5",
                 "__date_sort": 1575759600,
-                "__version_sort": 40
+                "__version_sort": 41
             },
             {
                 "link": "resources/APROM/SecureROM for t8027si, iBoot-4172.0.0.100.13",
@@ -462,7 +473,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPad Pro 2018/2020",
                 "__date_sort": 1706482800,
-                "__version_sort": 41
+                "__version_sort": 42
             },
             {
                 "link": "resources/APROM/SecureROM for t8027si, iBoot-4172.0.0.100.14",
@@ -473,7 +484,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPad Pro 2018/2020",
                 "__date_sort": 1706482800,
-                "__version_sort": 42
+                "__version_sort": 43
             },
             {
                 "link": "resources/APROM/SecureROM for t8006si, iBoot-3988.0.0.2.12",
@@ -484,7 +495,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for Apple Watch Series 4/5",
                 "__date_sort": 1589234400,
-                "__version_sort": 43
+                "__version_sort": 44
             },
             {
                 "link": "resources/APROM/SecureROM for t8030si, iBoot-4479.0.0.100.4",
@@ -495,7 +506,7 @@ var map =
                 "from": "D421AP DVT",
                 "desc": "Bootrom for iPhone 11, 11 Pro [Max] and SE (2nd generation)",
                 "__date_sort": 1574636400,
-                "__version_sort": 44
+                "__version_sort": 45
             },
             {
                 "link": "resources/APROM/SecureROM for t8101si, iBoot-5281.0.0.100.22",
@@ -506,7 +517,7 @@ var map =
                 "from": "D53gAP Proto2",
                 "desc": "Bootrom for iPhone 12 [mini], 12 Pro [Max] and iPad Air 4",
                 "__date_sort": 1622584800,
-                "__version_sort": 45
+                "__version_sort": 46
             },
             {
                 "link": "resources/APROM/SecureROM for t8101si, iBoot-5281.0.0.100.34",
@@ -517,7 +528,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 12 [mini], 12 Pro [Max] and iPad Air 4",
                 "__date_sort": 1706482800,
-                "__version_sort": 46
+                "__version_sort": 47
             },
             {
                 "link": "resources/APROM/SecureROM for t8101si, iBoot-5281.0.0.100.45",
@@ -528,7 +539,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 12 [mini], 12 Pro [Max] and iPad Air 4",
                 "__date_sort": 1706482800,
-                "__version_sort": 47
+                "__version_sort": 48
             },
             {
                 "link": "resources/APROM/SecureROM for t8301si, iBoot-5281.0.0.200.31",
@@ -539,7 +550,7 @@ var map =
                 "from": "N157sAP ANT (?!)",
                 "desc": "Bootrom for Apple Watch Series 6/7/8/Ultra",
                 "__date_sort": 1724536800,
-                "__version_sort": 48
+                "__version_sort": 49
             },
             {
                 "link": "resources/APROM/SecureROM for t8301si, iBoot-5281.0.0.300.17",
@@ -550,7 +561,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for Apple Watch Series 6/7/8/Ultra",
                 "__date_sort": 1706482800,
-                "__version_sort": 49
+                "__version_sort": 50
             },
             {
                 "link": "resources/APROM/SecureROM for t8103si, iBoot-5540.0.0.200.13",
@@ -561,7 +572,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for M1 Macs and iPads",
                 "__date_sort": 1706482800,
-                "__version_sort": 50
+                "__version_sort": 51
             },
             {
                 "link": "resources/APROM/SecureROM for t8103si, iBoot-5540.0.0.400.2",
@@ -572,7 +583,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for M1 Macs and iPads",
                 "__date_sort": 1706482800,
-                "__version_sort": 51
+                "__version_sort": 52
             },
             {
                 "link": "resources/APROM/SecureROM for t8110si, iBoot-6338.0.0.200.15",
@@ -583,7 +594,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 13 [mini], iPhone 13 Pro [Max], iPad mini 6 and Apple TV 4K (3rd-generation)",
                 "__date_sort": 1706482800,
-                "__version_sort": 52
+                "__version_sort": 53
             },
             {
                 "link": "resources/APROM/SecureROM for t8110si, iBoot-6338.0.0.200.19",
@@ -594,7 +605,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 13 [mini], iPhone 13 Pro [Max], iPad mini 6 and Apple TV 4K (3rd-generation)",
                 "__date_sort": 1706482800,
-                "__version_sort": 53
+                "__version_sort": 54
             },
             {
                 "link": "resources/APROM/SecureROM for t8112si, iBoot-6821.0.0.200.13",
@@ -605,7 +616,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for M2 Macs and iPads",
                 "__date_sort": 1706482800,
-                "__version_sort": 54
+                "__version_sort": 55
             },
             {
                 "link": "resources/APROM/SecureROM for t8112si, iBoot-6821.0.0.200.16",
@@ -616,7 +627,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for M2 Macs and iPads",
                 "__date_sort": 1706482800,
-                "__version_sort": 55
+                "__version_sort": 56
             },
             {
                 "link": "resources/APROM/SecureROM for t6020si, iBoot-7168.0.0.200.21",
@@ -627,7 +638,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for M2 Pro/Max/(Ultra?) Macs",
                 "__date_sort": 1706482800,
-                "__version_sort": 56
+                "__version_sort": 57
             },
             {
                 "link": "resources/APROM/SecureROM for t8120si, iBoot-7195.0.0.200.29",
@@ -638,7 +649,7 @@ var map =
                 "from": "D73AP Proto2",
                 "desc": "Bootrom for iPhone 14 Pro [Max] and iPhone 15 [Plus]",
                 "__date_sort": 1706482800,
-                "__version_sort": 57
+                "__version_sort": 58
             },
             {
                 "link": "resources/APROM/SecureROM for t8120si, iBoot-7195.0.0.300.25",
@@ -649,7 +660,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 14 Pro [Max] and iPhone 15 [Plus]",
                 "__date_sort": 1711922400,
-                "__version_sort": 58
+                "__version_sort": 59
             },
             {
                 "link": "resources/APROM/SecureROM for t8130si, iBoot-8104.0.0.200.24",
@@ -660,7 +671,7 @@ var map =
                 "from": "D84AP Proto2",
                 "desc": "Bootrom for iPhone 15 Pro [Max]",
                 "__date_sort": 1711922400,
-                "__version_sort": 59
+                "__version_sort": 60
             },
             {
                 "link": "resources/APROM/SecureROM for t8130si, iBoot-8104.0.0.201.4",
@@ -671,7 +682,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for iPhone 15 Pro [Max]",
                 "__date_sort": 1731711600,
-                "__version_sort": 60
+                "__version_sort": 61
             },
             {
                 "link": "resources/APROM/SecureROM for t6031si, iBoot-8104.0.0.300.22",
@@ -682,7 +693,18 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for MacBook Pro (M3 Max)",
                 "__date_sort": 1748901600,
-                "__version_sort": 61
+                "__version_sort": 62
+            },
+            {
+                "link": "resources/APROM/SecureROM for t8132si, iBoot-9082.0.0.200.23",
+                "name": "SecureROM for t8132si (non-production)",
+                "date": "14.2.26",
+                "picture": "resources/images/Apple-M4.jpg",
+                "version": "iBoot-9082.0.0.200.23",
+                "from": "unknown",
+                "desc": "Bootrom for iPad Pro (2024) and various Macs",
+                "__date_sort": 1771023600,
+                "__version_sort": 63
             }
         ]
     },
@@ -1116,6 +1138,17 @@ var map =
                 "desc": "SEPROM from M3 Max of revision A0 (first one)",
                 "__date_sort": 1748901600,
                 "__version_sort": 38
+            },
+            {
+                "link": "resources/SEPROM/AppleSEPROM-989.0.0.300.5",
+                "name": "Donan A0 SEPROM",
+                "date": "14.2.26",
+                "picture": "resources/images/Apple-M4.jpg",
+                "version": "AppleSEPROM-989.0.0.300.5",
+                "from": "unknown",
+                "desc": "SEPROM from M4 of revision A0 (first one)",
+                "__date_sort": 1771023600,
+                "__version_sort": 39
             }
         ]
     },
@@ -1155,6 +1188,17 @@ var map =
                 "__version_sort": 2
             },
             {
+                "link": "resources/RTKit/RTKitROM for t2016si, RTKitROM-212.0.0.200.37",
+                "name": "RTKitROM for t2016si",
+                "date": "14.2.26",
+                "picture": "resources/images/Apple-H2.jpg",
+                "version": "RTKitROM-212.0.0.200.37",
+                "from": "unknown",
+                "desc": "Bootrom for AirPods Pro 2/3 & AirPods 4",
+                "__date_sort": 1771023600,
+                "__version_sort": 3
+            },
+            {
                 "link": "resources/RTKit/RTKitROM for t2024si, RTKitROM-298.0.0.200.11",
                 "name": "RTKitROM for t2024si (?)",
                 "date": "15.6.24",
@@ -1163,7 +1207,7 @@ var map =
                 "from": "unknown",
                 "desc": "Bootrom for U2 ultra-wideband chip used in iPhone 15 Pro [Max], Apple Watch Series 9 and Ultra 2",
                 "__date_sort": 1718402400,
-                "__version_sort": 3
+                "__version_sort": 4
             }
         ]
     },

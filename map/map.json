@@ -137,6 +137,15 @@
                     "desc" : "Bootrom for iPad 4. Vulnerable to checkm8"
                 },
                 {
+                    "link" : "resources/APROM/SecureROM for s5l8747xsi, iBoot-1413.6",
+                    "name" : "SecureROM for s5l8747xsi",
+                    "date" : "14.2.26",
+                    "picture": "resources/images/339S0196.jpg",
+                    "version" : "iBoot-1413.6",
+                    "from" : "B165AP Proto1",
+                    "desc" : "Bootrom for Haywire. Vulnerable to checkm8"
+                },
+                {
                     "link" : "resources/APROM/SecureROM for s5l8747xsi, iBoot-1413.8",
                     "name" : "SecureROM for s5l8747xsi",
                     "date" : "9.2.20",
@@ -558,6 +567,15 @@
                     "version" : "iBoot-8104.0.0.300.22",
                     "from" : "unknown",
                     "desc" : "Bootrom for MacBook Pro (M3 Max)"
+                },
+                {
+                    "link" : "resources/APROM/SecureROM for t8132si, iBoot-9082.0.0.200.23",
+                    "name" : "SecureROM for t8132si (non-production)",
+                    "date" : "14.2.26",
+                    "picture": "resources/images/Apple-M4.jpg",
+                    "version" : "iBoot-9082.0.0.200.23",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for iPad Pro (2024) and various Macs"
                 }
             ]
         },
@@ -914,6 +932,15 @@
                     "version" : "AppleSEPROM-838.0.0.300.9",
                     "from" : "unknown",
                     "desc" : "SEPROM from M3 Max of revision A0 (first one)"
+                },
+                {
+                    "link" : "resources/SEPROM/AppleSEPROM-989.0.0.300.5",
+                    "name" : "Donan A0 SEPROM",
+                    "date" : "14.2.26",
+                    "picture": "resources/images/Apple-M4.jpg",
+                    "version" : "AppleSEPROM-989.0.0.300.5",
+                    "from" : "unknown",
+                    "desc" : "SEPROM from M4 of revision A0 (first one)"
                 }
             ]
         },
@@ -946,6 +973,15 @@
                     "version" : "RTKitROM-91.0.0.3.2",
                     "from" : "unknown",
                     "desc" : "Bootrom for U1 ultra-wideband chip used in iPhone 11 and newer, AirTag, various Apple Watch models and AirPods Pro 2 case"
+                },
+                {
+                    "link" : "resources/RTKit/RTKitROM for t2016si, RTKitROM-212.0.0.200.37",
+                    "name" : "RTKitROM for t2016si",
+                    "date" : "14.2.26",
+                    "picture": "resources/images/Apple-H2.jpg",
+                    "version" : "RTKitROM-212.0.0.200.37",
+                    "from" : "unknown",
+                    "desc" : "Bootrom for AirPods Pro 2/3 & AirPods 4"
                 },
                 {
                     "link" : "resources/RTKit/RTKitROM for t2024si, RTKitROM-298.0.0.200.11",
