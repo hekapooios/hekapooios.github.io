@@ -1,0 +1,57 @@
+{{#.}}
+    <div class="layout-container post">
+        <div class="layout-element-picture">
+            <img class="align post" src="{{picture}}">
+        </div>
+
+        <div class="layout-element" style="flex: 280px;">
+            <h4>{{title}}</h4>
+
+            {{#subtitle}}
+                <div class="desc-alt">
+                    <b>{{subtitle}}</b>
+                </div>
+            {{/subtitle}}
+
+            <div class="inner-post">
+                {{#roms}}
+                    <a class="link" href="{{link}}">
+                        <div class="rom-entry">
+                            {{#__seprom}}
+                                <img class="rom-logo" src="resources/ui/sep.png">
+                            {{/__seprom}}
+                            {{^__seprom}}
+                                <img class="rom-logo" src="resources/ui/cpu.png">
+                            {{/__seprom}}
+
+                            <div class="rom-label">{{__title}}</div>
+
+                            <div class="rom-rev">
+                                {{#revisions}}
+                                    <span class="rom-rev-base rom-rev-{{rev}}">{{name}}</span>{{#__not_last}}<span class="rom-rev-base">/</span>{{/__not_last}}
+                                {{/revisions}}
+                            </div>
+                        </div>
+                    </a>
+                    {{#__divider}}
+                        <div class="rom-divider"></div>
+                    {{/__divider}}
+                {{/roms}}
+
+                <p class="post-desc">
+                    {{__devices}}
+                </p>
+
+                {{#additional}}
+                    <p class="post-desc">
+                        {{additional}}
+                    </p>
+                {{/additional}}
+            </div>
+        </div>
+    </div>
+
+    {{^last}}
+        <div class="divider" style="margin: 16px auto;"></div>
+    {{/last}}
+{{/.}}

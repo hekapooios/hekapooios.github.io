@@ -1,63 +1,62 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 import json
-from datetime import datetime
 
-OUT_FILE = "map__.js"
-DATE_PLACEHOLDER = "big_date"
+OUT_FILE = "map_v2.js"
 JS_TEMPLATE = "var map = \n%s"
-TAG_COUNT_MAX = 5
-
-# Not worth the hassle due to 8942 being "rom",
-# half the SEPROMs being privately built and etc.
-
-# def convert_version(version: str) -> int:
-#     splitted = version.split("-")
-#     tag = splitted[1]
-
-#     tag_splitted = tag.split(".")
-
-#     result = 0
-
-#     for i in range(TAG_COUNT_MAX):
-#         if i == 0:
-#             max_count = 5
-#         else:
-#             max_count = 3
-        
-#         try:
-#             result += int(tag_splitted[i]) * \
-#                 (10 ** (TAG_COUNT_MAX - i + max_count))
-#         except IndexError:
-#             break
-
-#     return result
 
 def process_map(map_raw: dict):
-    for key, val in map_raw.items():
-        print("processing %s" % key)
+    for typ, socs in map_raw.items():
+        print("processing %s" % typ)
 
-        for idx, entry in enumerate(val["roms"]):
-            date = entry["date"]
-            if date == DATE_PLACEHOLDER:
-                date = "1.1.30"
+        for soc in socs:
+            for sect in soc["roms"]:
+                for rom in sect:
+                    if os.path.basename(rom["link"]).startswith("AppleSEPROM"):
+                        rom["__seprom"] = True
 
-            version = entry["version"]
+                    title = rom["title"]
+                    if title.startswith("private_build"):
+                        splitted = rom["title"].split("...")
+                        title = "...".join(splitted[:2]) + "..." + "\n" + "...".join(splitted[2:])
 
-            timestamp = int(datetime.strptime(date, "%d.%m.%y").timestamp())
+                    rom["__title"] = title
 
-            # See the note above            
-            # if version == "rom":
-            #     version = "iBoot-878.8"
+                    if rom.get("revisions") and len(rom["revisions"]) > 1:
+                        for rev in rom["revisions"][:-1]:
+                            rev["__not_last"] = True
 
-            # if key == "aps":
-            #     int_version = convert_version(version)
-            # else:
-            #     int_version = idx
+                    rom["__divider"] = False
 
-            entry["__date_sort"] = timestamp
-            entry["__version_sort"] = idx   # int_version
+                sect[-1]["__divider"] = True
+
+            soc["roms"][-1][-1]["__divider"] = False
+
+            soc["roms"] = [
+                x
+                for xs in soc["roms"]
+                for x in xs
+            ]
+
+            if len(soc["devices"]) > 2:
+                devices = ", ".join(soc["devices"][:-1]) + " and %s" % soc["devices"][-1]
+            elif len(soc["devices"]) == 2:
+                devices = " and ".join(soc["devices"])
+            elif len(soc["devices"]) == 1:
+                devices = soc["devices"][0]
+            else:
+                continue
+
+            if soc.get("type") == "uwb":
+                base = "Ultra-wideband coprocessor"
+            elif soc.get("type") == "security":
+                base = "Security coprocessor"
+            else:
+                base = "SoC"
+
+            soc["__devices"] = "%s for %s" % (base, devices)
 
 def main():
     if len(sys.argv) != 2:
