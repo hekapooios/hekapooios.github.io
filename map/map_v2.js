@@ -1785,7 +1785,7 @@ var map =
                 "iPhone 15 Pro Max",
                 "iPad mini (7th generation)"
             ],
-            "picture": "resources/images/Apple_A17.png",
+            "picture": "resources/images/Apple_A17.jpg",
             "roms": [
                 {
                     "title": "SecureROM for t8130si, iBoot-8104.0.0.200.24",
@@ -2135,7 +2135,7 @@ var map =
                 "AirPods Pro 2/3",
                 "AirPods 4"
             ],
-            "picture": "resources/images/Apple-H2.jpg",
+            "picture": "resources/images/H2.png",
             "roms": [
                 {
                     "title": "RTKitROM for t2016si, RTKitROM-212.0.0.200.37",
@@ -2160,7 +2160,7 @@ var map =
                 "iPhone 15 Pro [Max] and later",
                 "Apple Watch Series 9/Ultra 2 and later"
             ],
-            "picture": "resources/images/Apple_U2.png",
+            "picture": "resources/images/Apple_U2.jpg",
             "roms": [
                 {
                     "title": "RTKitROM for t2024si, RTKitROM-298.0.0.200.11",

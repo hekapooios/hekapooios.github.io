@@ -1617,7 +1617,7 @@
                 "iPhone 15 Pro Max",
                 "iPad mini (7th generation)"
             ],
-            "picture": "resources/images/Apple_A17.png",
+            "picture": "resources/images/Apple_A17.jpg",
             "roms": [
                 [
                     {
@@ -1946,7 +1946,7 @@
                 "AirPods Pro 2/3",
                 "AirPods 4"
             ],
-            "picture": "resources/images/Apple-H2.jpg",
+            "picture": "resources/images/H2.png",
             "roms": [
                 [
                     {
@@ -1970,7 +1970,7 @@
                 "iPhone 15 Pro [Max] and later",
                 "Apple Watch Series 9/Ultra 2 and later"
             ],
-            "picture": "resources/images/Apple_U2.png",
+            "picture": "resources/images/Apple_U2.jpg",
             "roms": [
                 [
                     {
