@@ -29,7 +29,7 @@ div.background {
     height: 100%;
     width: 100%;
     position: fixed;
-    background: radial-gradient(ellipse at center, #102141, #040404);
+    background: radial-gradient(ellipse at center, #101d34, #040404);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
