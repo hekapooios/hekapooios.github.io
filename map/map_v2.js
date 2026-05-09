@@ -1923,6 +1923,47 @@ var map =
                 }
             ],
             "__devices": "SoC for iPad Pro 11-inch, iPad Pro 13-inch, iMac (24-inch, 2024), Mac mini (2024), MacBook Pro (14-inch, Nov 2024), MacBook Air (13-inch, 2025) and MacBook Air (13-inch, 2025)"
+        },
+        {
+            "title": "Apple M5",
+            "subtitle": "Apple SoC Hidra H17G (T8142)",
+            "devices": [
+                "MacBook Pro (14-inch, M5)",
+                "iPad Pro 11-inch (M5)",
+                "iPad Pro 13-inch (M5)",
+                "Apple Vision Pro (M5)",
+                "MacBook Air (13-inch, M5)",
+                "MacBook Air (15-inch, M5)"
+            ],
+            "picture": "resources/images/Apple-M5.png",
+            "roms": [
+                {
+                    "title": "SecureROM for t8142si, iBoot-10679.0.0.102.5",
+                    "link": "resources/APROM/SecureROM for t8142si, iBoot-10679.0.0.102.5",
+                    "revisions": [
+                        {
+                            "name": "B0",
+                            "rev": "middle"
+                        }
+                    ],
+                    "__title": "SecureROM for t8142si, iBoot-10679.0.0.102.5",
+                    "__divider": true
+                },
+                {
+                    "title": "AppleSEPROM-1209.0.0.101.8",
+                    "link": "resources/SEPROM/AppleSEPROM-1209.0.0.101.8",
+                    "revisions": [
+                        {
+                            "name": "B0",
+                            "rev": "middle"
+                        }
+                    ],
+                    "__seprom": true,
+                    "__title": "AppleSEPROM-1209.0.0.101.8",
+                    "__divider": false
+                }
+            ],
+            "__devices": "SoC for MacBook Pro (14-inch, M5), iPad Pro 11-inch (M5), iPad Pro 13-inch (M5), Apple Vision Pro (M5), MacBook Air (13-inch, M5) and MacBook Air (15-inch, M5)"
         }
     ],
     "ipod": [
