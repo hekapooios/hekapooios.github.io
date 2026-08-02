@@ -1782,6 +1782,28 @@
                     }
                 ]
             ]
+        },
+        {
+            "title": "Apple A20",
+            "subtitle": "Apple SoC Banda H19A (T8160)",
+            "devices": [
+                "iPad mini (8th generation)?"
+            ],
+            "picture": "resources/images/A20_IDK.png",
+            "roms": [
+                [
+                    {
+                        "title": "SecureROM for t8160si, iBoot-13257.0.0.100.22",
+                        "link": "resources/APROM/SecureROM for t8160si, iBoot-13257.0.0.100.22",
+                        "revisions": [
+                            {
+                                "name": "A0",
+                                "rev": "early"
+                            }
+                        ]
+                    }
+                ]
+            ]
         }
     ],
 

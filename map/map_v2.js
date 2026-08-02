@@ -1964,6 +1964,29 @@ var map =
                 }
             ],
             "__devices": "SoC for MacBook Pro (14-inch, M5), iPad Pro 11-inch (M5), iPad Pro 13-inch (M5), Apple Vision Pro (M5), MacBook Air (13-inch, M5) and MacBook Air (15-inch, M5)"
+        },
+        {
+            "title": "Apple A20",
+            "subtitle": "Apple SoC Banda H19A (T8160)",
+            "devices": [
+                "iPad mini (8th generation)?"
+            ],
+            "picture": "resources/images/A20_IDK.png",
+            "roms": [
+                {
+                    "title": "SecureROM for t8160si, iBoot-13257.0.0.100.22",
+                    "link": "resources/APROM/SecureROM for t8160si, iBoot-13257.0.0.100.22",
+                    "revisions": [
+                        {
+                            "name": "A0",
+                            "rev": "early"
+                        }
+                    ],
+                    "__title": "SecureROM for t8160si, iBoot-13257.0.0.100.22",
+                    "__divider": false
+                }
+            ],
+            "__devices": "SoC for iPad mini (8th generation)?"
         }
     ],
     "ipod": [
