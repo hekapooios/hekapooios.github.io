@@ -1971,7 +1971,7 @@ var map =
             "devices": [
                 "iPad mini (8th generation)?"
             ],
-            "picture": "resources/images/A20_IDK.png",
+            "picture": "resources/images/A20_non_pro.png",
             "roms": [
                 {
                     "title": "SecureROM for t8160si, iBoot-13257.0.0.100.22",
