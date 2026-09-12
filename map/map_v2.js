@@ -2009,6 +2009,22 @@ var map =
             "__devices": "SoC for iPod nano (2nd generation)"
         },
         {
+            "title": "S5L8441",
+            "devices": [
+                "iPod shuffle (2nd generation)"
+            ],
+            "picture": "resources/images/S5L8441.jpg",
+            "roms": [
+                {
+                    "title": "ROM BOOT, S5L8441 Rev.1",
+                    "link": "resources/Samsung/ROM BOOT, S5L8441 Rev.1",
+                    "__title": "ROM BOOT, S5L8441 Rev.1",
+                    "__divider": false
+                }
+            ],
+            "__devices": "SoC for iPod shuffle (2nd generation)"
+        },
+        {
             "title": "S5L8702",
             "subtitle": "Apple SoC M1A (S5L8702X)",
             "devices": [
