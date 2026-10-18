@@ -1938,16 +1938,46 @@ var map =
             "picture": "resources/images/Apple-M5.png",
             "roms": [
                 {
+                    "title": "SecureROM for t8142si, iBoot-10679.0.0.100.33",
+                    "link": "resources/APROM/SecureROM for t8142si, iBoot-10679.0.0.100.33",
+                    "revisions": [
+                        {
+                            "name": "A0",
+                            "rev": "early"
+                        }
+                    ],
+                    "__title": "SecureROM for t8142si, iBoot-10679.0.0.100.33",
+                    "__divider": false
+                },
+                {
                     "title": "SecureROM for t8142si, iBoot-10679.0.0.102.5",
                     "link": "resources/APROM/SecureROM for t8142si, iBoot-10679.0.0.102.5",
                     "revisions": [
                         {
                             "name": "B0",
-                            "rev": "middle"
+                            "rev": "middle",
+                            "__not_last": true
+                        },
+                        {
+                            "name": "C0",
+                            "rev": "prod"
                         }
                     ],
                     "__title": "SecureROM for t8142si, iBoot-10679.0.0.102.5",
                     "__divider": true
+                },
+                {
+                    "title": "AppleSEPROM-1209.0.0.100.16",
+                    "link": "resources/SEPROM/AppleSEPROM-1209.0.0.100.16",
+                    "revisions": [
+                        {
+                            "name": "A0",
+                            "rev": "early"
+                        }
+                    ],
+                    "__seprom": true,
+                    "__title": "AppleSEPROM-1209.0.0.100.16",
+                    "__divider": false
                 },
                 {
                     "title": "AppleSEPROM-1209.0.0.101.8",
