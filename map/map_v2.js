@@ -34,7 +34,7 @@ var map =
         },
         {
             "title": "S5L8720X",
-            "subtitle": "Apple SoC M2P (S5L8720X)",
+            "subtitle": "Apple SoC M2 (S5L8720X)",
             "devices": [
                 "iPod touch (2nd generation)"
             ],
@@ -341,7 +341,7 @@ var map =
         },
         {
             "title": "S5L8747X",
-            "subtitle": "Samsung G1P",
+            "subtitle": "Samsung G1",
             "devices": [
                 "Lightning Digital AV Adapter",
                 "Lightning to VGA Adapter"
@@ -2022,7 +2022,7 @@ var map =
     "ipod": [
         {
             "title": "S5L8701",
-            "subtitle": "Apple SoC M1 (S5L8701X)",
+            "subtitle": "Apple SoC M1",
             "devices": [
                 "iPod nano (2nd generation)"
             ],
@@ -2040,6 +2040,7 @@ var map =
         },
         {
             "title": "S5L8441",
+            "subtitle": "Apple SoC L1",
             "devices": [
                 "iPod shuffle (2nd generation)"
             ],
@@ -2056,7 +2057,7 @@ var map =
         },
         {
             "title": "S5L8702",
-            "subtitle": "Apple SoC M1A (S5L8702X)",
+            "subtitle": "Apple SoC M1A",
             "devices": [
                 "iPod classic",
                 "iPod nano (3rd generation)"
@@ -2074,6 +2075,7 @@ var map =
         },
         {
             "title": "S5L8442",
+            "subtitle": "Apple SoC L1A",
             "devices": [
                 "iPod shuffle (3rd generation)"
             ],
@@ -2090,7 +2092,6 @@ var map =
         },
         {
             "title": "S5L8720",
-            "subtitle": "Apple SoC M2S (S5L8720X)",
             "devices": [
                 "iPod nano (4th generation)"
             ],
@@ -2140,6 +2141,7 @@ var map =
         },
         {
             "title": "S5L8443",
+            "subtitle": "Apple SoC L2",
             "devices": [
                 "iPod shuffle (4th generation)"
             ],
@@ -2156,7 +2158,7 @@ var map =
         },
         {
             "title": "S5L8740",
-            "subtitle": "Apple SoC M2R? (S5L8740X)",
+            "subtitle": "Apple SoC M2R?",
             "devices": [
                 "iPod nano (7th generation)"
             ],
